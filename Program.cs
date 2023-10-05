@@ -4,29 +4,44 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ramoncín_11
+namespace Ramoncín_12
 {
     internal class Program
     {
         static void Main(string[] args)
         {
+            //Pedir lado
+            float l;
+            Console.WriteLine("Dime el lado :");
+            l = float.Parse(Console.ReadLine());
 
-            //Registramos el espacio
-            double espacio;
-            Console.WriteLine("Dime un espacio en metros: ");
-            espacio = Convert.ToDouble(Console.ReadLine());
-
-            //Registramos el tiempo
-            double tiempo;
-            Console.WriteLine("Dime cuanto tiempo en segundos: ");
-            tiempo = Convert.ToDouble(Console.ReadLine());
-
-            //Calcular la velocidad
-            double velocidad;
-            velocidad = espacio / tiempo;
-            Console.WriteLine("La velocidad es de " + velocidad + " metros/segundos");
+            //Pedir el área
+            float a;
+            a = (float)Math.Pow(l, 2 );
+            Console.WriteLine("El áera es de " + a);
             Console.ReadLine();
 
+            //Pedir perímetro
+            double p;
+            p = 4 * l;
+            Console.WriteLine("El perímetro es " + p );
+            Console.ReadLine();
+
+            /*Pedir la diagonal
+            float d1;
+            d1 = (float)Math.Sqrt(l);
+            float d2 = l * d1;
+            Console.WriteLine("La diagonal es " + d2);
+            Console.ReadLine();
+            */
+            int x = 2;
+            float d1 = l;
+            float d1 = (float)Math.Sqrt(x);
+            Console.WriteLine(d1);
+            Console.ReadLine();
+
+
+            
         }
     }
 }
