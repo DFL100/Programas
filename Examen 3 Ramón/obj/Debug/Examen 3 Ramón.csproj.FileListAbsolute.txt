@@ -1,0 +1,8 @@
+C:\Users\Alumno\source\repos\Examen 3 Ramón\bin\Debug\Examen 3 Ramón.exe.config
+C:\Users\Alumno\source\repos\Examen 3 Ramón\bin\Debug\Examen 3 Ramón.exe
+C:\Users\Alumno\source\repos\Examen 3 Ramón\bin\Debug\Examen 3 Ramón.pdb
+C:\Users\Alumno\source\repos\Examen 3 Ramón\obj\Debug\Examen 3 Ramón.csproj.AssemblyReference.cache
+C:\Users\Alumno\source\repos\Examen 3 Ramón\obj\Debug\Examen 3 Ramón.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumno\source\repos\Examen 3 Ramón\obj\Debug\Examen 3 Ramón.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\source\repos\Examen 3 Ramón\obj\Debug\Examen 3 Ramón.exe
+C:\Users\Alumno\source\repos\Examen 3 Ramón\obj\Debug\Examen 3 Ramón.pdb

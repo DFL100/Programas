@@ -1,0 +1,8 @@
+C:\Users\Alumno\source\repos\Trimestre 2, prueba 1\bin\Debug\Trimestre 2, prueba 1.exe.config
+C:\Users\Alumno\source\repos\Trimestre 2, prueba 1\bin\Debug\Trimestre 2, prueba 1.exe
+C:\Users\Alumno\source\repos\Trimestre 2, prueba 1\bin\Debug\Trimestre 2, prueba 1.pdb
+C:\Users\Alumno\source\repos\Trimestre 2, prueba 1\obj\Debug\Trimestre 2, prueba 1.csproj.AssemblyReference.cache
+C:\Users\Alumno\source\repos\Trimestre 2, prueba 1\obj\Debug\Trimestre 2, prueba 1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumno\source\repos\Trimestre 2, prueba 1\obj\Debug\Trimestre 2, prueba 1.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\source\repos\Trimestre 2, prueba 1\obj\Debug\Trimestre 2, prueba 1.exe
+C:\Users\Alumno\source\repos\Trimestre 2, prueba 1\obj\Debug\Trimestre 2, prueba 1.pdb

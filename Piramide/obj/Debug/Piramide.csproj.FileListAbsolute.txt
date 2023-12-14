@@ -1,0 +1,8 @@
+C:\Users\Alumno\source\repos\Piramide\bin\Debug\Piramide.exe.config
+C:\Users\Alumno\source\repos\Piramide\bin\Debug\Piramide.exe
+C:\Users\Alumno\source\repos\Piramide\bin\Debug\Piramide.pdb
+C:\Users\Alumno\source\repos\Piramide\obj\Debug\Piramide.csproj.AssemblyReference.cache
+C:\Users\Alumno\source\repos\Piramide\obj\Debug\Piramide.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumno\source\repos\Piramide\obj\Debug\Piramide.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\source\repos\Piramide\obj\Debug\Piramide.exe
+C:\Users\Alumno\source\repos\Piramide\obj\Debug\Piramide.pdb

@@ -1,0 +1,8 @@
+C:\Users\Alumno\source\repos\Prueba-1\bin\Debug\Prueba-1.exe.config
+C:\Users\Alumno\source\repos\Prueba-1\bin\Debug\Prueba-1.exe
+C:\Users\Alumno\source\repos\Prueba-1\bin\Debug\Prueba-1.pdb
+C:\Users\Alumno\source\repos\Prueba-1\obj\Debug\Prueba-1.csproj.AssemblyReference.cache
+C:\Users\Alumno\source\repos\Prueba-1\obj\Debug\Prueba-1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumno\source\repos\Prueba-1\obj\Debug\Prueba-1.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\source\repos\Prueba-1\obj\Debug\Prueba-1.exe
+C:\Users\Alumno\source\repos\Prueba-1\obj\Debug\Prueba-1.pdb

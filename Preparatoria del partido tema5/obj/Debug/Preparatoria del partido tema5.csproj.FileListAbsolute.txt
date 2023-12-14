@@ -1,0 +1,8 @@
+C:\Users\Alumno\source\repos\Preparatoria del partido tema5\bin\Debug\Preparatoria del partido tema5.exe.config
+C:\Users\Alumno\source\repos\Preparatoria del partido tema5\bin\Debug\Preparatoria del partido tema5.exe
+C:\Users\Alumno\source\repos\Preparatoria del partido tema5\bin\Debug\Preparatoria del partido tema5.pdb
+C:\Users\Alumno\source\repos\Preparatoria del partido tema5\obj\Debug\Preparatoria del partido tema5.csproj.AssemblyReference.cache
+C:\Users\Alumno\source\repos\Preparatoria del partido tema5\obj\Debug\Preparatoria del partido tema5.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumno\source\repos\Preparatoria del partido tema5\obj\Debug\Preparatoria del partido tema5.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\source\repos\Preparatoria del partido tema5\obj\Debug\Preparatoria del partido tema5.exe
+C:\Users\Alumno\source\repos\Preparatoria del partido tema5\obj\Debug\Preparatoria del partido tema5.pdb

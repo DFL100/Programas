@@ -1,0 +1,8 @@
+C:\Users\Alumno\source\repos\Prueba match\bin\Debug\Prueba match.exe.config
+C:\Users\Alumno\source\repos\Prueba match\bin\Debug\Prueba match.exe
+C:\Users\Alumno\source\repos\Prueba match\bin\Debug\Prueba match.pdb
+C:\Users\Alumno\source\repos\Prueba match\obj\Debug\Prueba match.csproj.AssemblyReference.cache
+C:\Users\Alumno\source\repos\Prueba match\obj\Debug\Prueba match.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumno\source\repos\Prueba match\obj\Debug\Prueba match.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\source\repos\Prueba match\obj\Debug\Prueba match.exe
+C:\Users\Alumno\source\repos\Prueba match\obj\Debug\Prueba match.pdb

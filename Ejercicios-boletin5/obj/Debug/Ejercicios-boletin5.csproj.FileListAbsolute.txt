@@ -1,0 +1,8 @@
+C:\Users\Alumno\source\repos\Ejercicios-boletin5\obj\Debug\Ejercicios-boletin5.csproj.AssemblyReference.cache
+C:\Users\Alumno\source\repos\Ejercicios-boletin5\obj\Debug\Ejercicios-boletin5.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumno\source\repos\Ejercicios-boletin5\obj\Debug\Ejercicios-boletin5.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\source\repos\Ejercicios-boletin5\bin\Debug\Ejercicios-boletin5.exe.config
+C:\Users\Alumno\source\repos\Ejercicios-boletin5\bin\Debug\Ejercicios-boletin5.exe
+C:\Users\Alumno\source\repos\Ejercicios-boletin5\bin\Debug\Ejercicios-boletin5.pdb
+C:\Users\Alumno\source\repos\Ejercicios-boletin5\obj\Debug\Ejercicios-boletin5.exe
+C:\Users\Alumno\source\repos\Ejercicios-boletin5\obj\Debug\Ejercicios-boletin5.pdb

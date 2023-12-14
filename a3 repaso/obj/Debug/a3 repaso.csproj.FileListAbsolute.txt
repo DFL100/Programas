@@ -1,0 +1,8 @@
+C:\Users\Alumno\source\repos\a3 repaso\obj\Debug\a3 repaso.csproj.AssemblyReference.cache
+C:\Users\Alumno\source\repos\a3 repaso\obj\Debug\a3 repaso.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumno\source\repos\a3 repaso\obj\Debug\a3 repaso.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\source\repos\a3 repaso\bin\Debug\a3 repaso.exe.config
+C:\Users\Alumno\source\repos\a3 repaso\bin\Debug\a3 repaso.exe
+C:\Users\Alumno\source\repos\a3 repaso\bin\Debug\a3 repaso.pdb
+C:\Users\Alumno\source\repos\a3 repaso\obj\Debug\a3 repaso.exe
+C:\Users\Alumno\source\repos\a3 repaso\obj\Debug\a3 repaso.pdb

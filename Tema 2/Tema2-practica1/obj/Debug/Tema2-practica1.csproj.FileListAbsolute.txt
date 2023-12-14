@@ -1,0 +1,8 @@
+C:\Users\Alumno\source\repos\Tema2-practica1\bin\Debug\Tema2-practica1.exe.config
+C:\Users\Alumno\source\repos\Tema2-practica1\bin\Debug\Tema2-practica1.exe
+C:\Users\Alumno\source\repos\Tema2-practica1\bin\Debug\Tema2-practica1.pdb
+C:\Users\Alumno\source\repos\Tema2-practica1\obj\Debug\Tema2-practica1.csproj.AssemblyReference.cache
+C:\Users\Alumno\source\repos\Tema2-practica1\obj\Debug\Tema2-practica1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumno\source\repos\Tema2-practica1\obj\Debug\Tema2-practica1.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\source\repos\Tema2-practica1\obj\Debug\Tema2-practica1.exe
+C:\Users\Alumno\source\repos\Tema2-practica1\obj\Debug\Tema2-practica1.pdb

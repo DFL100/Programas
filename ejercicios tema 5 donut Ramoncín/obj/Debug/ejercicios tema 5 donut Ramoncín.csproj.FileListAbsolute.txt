@@ -1,0 +1,8 @@
+C:\Users\Alumno\source\repos\ejercicios tema 5 donut Ramoncín\bin\Debug\ejercicios tema 5 donut Ramoncín.exe.config
+C:\Users\Alumno\source\repos\ejercicios tema 5 donut Ramoncín\bin\Debug\ejercicios tema 5 donut Ramoncín.exe
+C:\Users\Alumno\source\repos\ejercicios tema 5 donut Ramoncín\bin\Debug\ejercicios tema 5 donut Ramoncín.pdb
+C:\Users\Alumno\source\repos\ejercicios tema 5 donut Ramoncín\obj\Debug\ejercicios tema 5 donut Ramoncín.csproj.AssemblyReference.cache
+C:\Users\Alumno\source\repos\ejercicios tema 5 donut Ramoncín\obj\Debug\ejercicios tema 5 donut Ramoncín.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumno\source\repos\ejercicios tema 5 donut Ramoncín\obj\Debug\ejercicios tema 5 donut Ramoncín.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\source\repos\ejercicios tema 5 donut Ramoncín\obj\Debug\ejercicios tema 5 donut Ramoncín.exe
+C:\Users\Alumno\source\repos\ejercicios tema 5 donut Ramoncín\obj\Debug\ejercicios tema 5 donut Ramoncín.pdb

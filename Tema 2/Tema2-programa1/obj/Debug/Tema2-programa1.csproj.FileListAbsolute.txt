@@ -1,0 +1,8 @@
+C:\Users\Alumno\source\repos\Tema2-programa1\obj\Debug\Tema2-programa1.csproj.AssemblyReference.cache
+C:\Users\Alumno\source\repos\Tema2-programa1\obj\Debug\Tema2-programa1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumno\source\repos\Tema2-programa1\obj\Debug\Tema2-programa1.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\source\repos\Tema2-programa1\bin\Debug\Tema2-programa1.exe.config
+C:\Users\Alumno\source\repos\Tema2-programa1\bin\Debug\Tema2-programa1.exe
+C:\Users\Alumno\source\repos\Tema2-programa1\bin\Debug\Tema2-programa1.pdb
+C:\Users\Alumno\source\repos\Tema2-programa1\obj\Debug\Tema2-programa1.exe
+C:\Users\Alumno\source\repos\Tema2-programa1\obj\Debug\Tema2-programa1.pdb

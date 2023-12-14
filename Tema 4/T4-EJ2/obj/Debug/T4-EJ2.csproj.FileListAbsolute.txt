@@ -1,0 +1,8 @@
+C:\Users\Alumno\source\repos\T4-EJ2\bin\Debug\T4-EJ2.exe.config
+C:\Users\Alumno\source\repos\T4-EJ2\bin\Debug\T4-EJ2.exe
+C:\Users\Alumno\source\repos\T4-EJ2\bin\Debug\T4-EJ2.pdb
+C:\Users\Alumno\source\repos\T4-EJ2\obj\Debug\T4-EJ2.csproj.AssemblyReference.cache
+C:\Users\Alumno\source\repos\T4-EJ2\obj\Debug\T4-EJ2.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumno\source\repos\T4-EJ2\obj\Debug\T4-EJ2.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\source\repos\T4-EJ2\obj\Debug\T4-EJ2.exe
+C:\Users\Alumno\source\repos\T4-EJ2\obj\Debug\T4-EJ2.pdb

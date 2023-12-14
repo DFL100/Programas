@@ -1,0 +1,8 @@
+C:\Users\Alumno\source\repos\PreexAmen\bin\Debug\PreexAmen.exe.config
+C:\Users\Alumno\source\repos\PreexAmen\bin\Debug\PreexAmen.exe
+C:\Users\Alumno\source\repos\PreexAmen\bin\Debug\PreexAmen.pdb
+C:\Users\Alumno\source\repos\PreexAmen\obj\Debug\PreexAmen.csproj.AssemblyReference.cache
+C:\Users\Alumno\source\repos\PreexAmen\obj\Debug\PreexAmen.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumno\source\repos\PreexAmen\obj\Debug\PreexAmen.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\source\repos\PreexAmen\obj\Debug\PreexAmen.exe
+C:\Users\Alumno\source\repos\PreexAmen\obj\Debug\PreexAmen.pdb

@@ -1,0 +1,3 @@
+C:\Users\Alumno\source\repos\Ramoncín bombones\obj\Debug\Ramoncín bombones.csproj.AssemblyReference.cache
+C:\Users\Alumno\source\repos\Ramoncín bombones\obj\Debug\Ramoncín bombones.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumno\source\repos\Ramoncín bombones\obj\Debug\Ramoncín bombones.csproj.CoreCompileInputs.cache

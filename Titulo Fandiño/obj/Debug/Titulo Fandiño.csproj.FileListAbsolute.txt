@@ -1,0 +1,8 @@
+C:\Users\Alumno\source\repos\Titulo Fandiño\obj\Debug\Titulo Fandiño.csproj.AssemblyReference.cache
+C:\Users\Alumno\source\repos\Titulo Fandiño\obj\Debug\Titulo Fandiño.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumno\source\repos\Titulo Fandiño\obj\Debug\Titulo Fandiño.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\source\repos\Titulo Fandiño\bin\Debug\Titulo Fandiño.exe.config
+C:\Users\Alumno\source\repos\Titulo Fandiño\bin\Debug\Titulo Fandiño.exe
+C:\Users\Alumno\source\repos\Titulo Fandiño\bin\Debug\Titulo Fandiño.pdb
+C:\Users\Alumno\source\repos\Titulo Fandiño\obj\Debug\Titulo Fandiño.exe
+C:\Users\Alumno\source\repos\Titulo Fandiño\obj\Debug\Titulo Fandiño.pdb

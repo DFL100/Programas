@@ -1,0 +1,8 @@
+C:\Users\Alumno\source\repos\Diego-Fandiño(Examen);\bin\Debug\Diego-Fandiño(Examen);.exe.config
+C:\Users\Alumno\source\repos\Diego-Fandiño(Examen);\bin\Debug\Diego-Fandiño(Examen);.exe
+C:\Users\Alumno\source\repos\Diego-Fandiño(Examen);\bin\Debug\Diego-Fandiño(Examen);.pdb
+C:\Users\Alumno\source\repos\Diego-Fandiño(Examen);\obj\Debug\Diego-Fandiño(Examen);.csproj.AssemblyReference.cache
+C:\Users\Alumno\source\repos\Diego-Fandiño(Examen);\obj\Debug\Diego-Fandiño(Examen);.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumno\source\repos\Diego-Fandiño(Examen);\obj\Debug\Diego-Fandiño(Examen);.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\source\repos\Diego-Fandiño(Examen);\obj\Debug\Diego-Fandiño(Examen);.exe
+C:\Users\Alumno\source\repos\Diego-Fandiño(Examen);\obj\Debug\Diego-Fandiño(Examen);.pdb

@@ -1,0 +1,8 @@
+C:\Users\Alumno\source\repos\Batalla\bin\Debug\Batalla.exe.config
+C:\Users\Alumno\source\repos\Batalla\bin\Debug\Batalla.exe
+C:\Users\Alumno\source\repos\Batalla\bin\Debug\Batalla.pdb
+C:\Users\Alumno\source\repos\Batalla\obj\Debug\Batalla.csproj.AssemblyReference.cache
+C:\Users\Alumno\source\repos\Batalla\obj\Debug\Batalla.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumno\source\repos\Batalla\obj\Debug\Batalla.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\source\repos\Batalla\obj\Debug\Batalla.exe
+C:\Users\Alumno\source\repos\Batalla\obj\Debug\Batalla.pdb

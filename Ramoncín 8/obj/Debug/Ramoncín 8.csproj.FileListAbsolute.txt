@@ -1,0 +1,8 @@
+C:\Users\Alumno\source\repos\Ramoncín 8\bin\Debug\Ramoncín 8.exe.config
+C:\Users\Alumno\source\repos\Ramoncín 8\bin\Debug\Ramoncín 8.exe
+C:\Users\Alumno\source\repos\Ramoncín 8\bin\Debug\Ramoncín 8.pdb
+C:\Users\Alumno\source\repos\Ramoncín 8\obj\Debug\Ramoncín 8.csproj.AssemblyReference.cache
+C:\Users\Alumno\source\repos\Ramoncín 8\obj\Debug\Ramoncín 8.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumno\source\repos\Ramoncín 8\obj\Debug\Ramoncín 8.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\source\repos\Ramoncín 8\obj\Debug\Ramoncín 8.exe
+C:\Users\Alumno\source\repos\Ramoncín 8\obj\Debug\Ramoncín 8.pdb

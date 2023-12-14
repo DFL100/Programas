@@ -1,0 +1,8 @@
+C:\Users\Alumno\source\repos\Ramoncín1--(3)\bin\Debug\Ramoncín1--(3).exe.config
+C:\Users\Alumno\source\repos\Ramoncín1--(3)\bin\Debug\Ramoncín1--(3).exe
+C:\Users\Alumno\source\repos\Ramoncín1--(3)\bin\Debug\Ramoncín1--(3).pdb
+C:\Users\Alumno\source\repos\Ramoncín1--(3)\obj\Debug\Ramoncín1--(3).csproj.AssemblyReference.cache
+C:\Users\Alumno\source\repos\Ramoncín1--(3)\obj\Debug\Ramoncín1--(3).csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumno\source\repos\Ramoncín1--(3)\obj\Debug\Ramoncín1--(3).csproj.CoreCompileInputs.cache
+C:\Users\Alumno\source\repos\Ramoncín1--(3)\obj\Debug\Ramoncín1--(3).exe
+C:\Users\Alumno\source\repos\Ramoncín1--(3)\obj\Debug\Ramoncín1--(3).pdb

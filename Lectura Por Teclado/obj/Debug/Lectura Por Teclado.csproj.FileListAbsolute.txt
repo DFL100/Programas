@@ -1,0 +1,8 @@
+C:\Users\Alumno\source\repos\Lectura Por Teclado\bin\Debug\Lectura Por Teclado.exe.config
+C:\Users\Alumno\source\repos\Lectura Por Teclado\bin\Debug\Lectura Por Teclado.exe
+C:\Users\Alumno\source\repos\Lectura Por Teclado\bin\Debug\Lectura Por Teclado.pdb
+C:\Users\Alumno\source\repos\Lectura Por Teclado\obj\Debug\Lectura Por Teclado.csproj.AssemblyReference.cache
+C:\Users\Alumno\source\repos\Lectura Por Teclado\obj\Debug\Lectura Por Teclado.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumno\source\repos\Lectura Por Teclado\obj\Debug\Lectura Por Teclado.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\source\repos\Lectura Por Teclado\obj\Debug\Lectura Por Teclado.exe
+C:\Users\Alumno\source\repos\Lectura Por Teclado\obj\Debug\Lectura Por Teclado.pdb
