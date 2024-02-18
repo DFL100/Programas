@@ -1,0 +1,7 @@
+C:\Users\Usuario\source\repos\boletin\boletin\bin\Debug\boletin.exe.config
+C:\Users\Usuario\source\repos\boletin\boletin\bin\Debug\boletin.exe
+C:\Users\Usuario\source\repos\boletin\boletin\bin\Debug\boletin.pdb
+C:\Users\Usuario\source\repos\boletin\boletin\obj\Debug\boletin.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\boletin\boletin\obj\Debug\boletin.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\boletin\boletin\obj\Debug\boletin.exe
+C:\Users\Usuario\source\repos\boletin\boletin\obj\Debug\boletin.pdb

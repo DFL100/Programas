@@ -1,0 +1,7 @@
+C:\Users\Usuario\source\repos\Ejercicio_13\Ejercicio_13\bin\Debug\Ejercicio_13.exe.config
+C:\Users\Usuario\source\repos\Ejercicio_13\Ejercicio_13\bin\Debug\Ejercicio_13.exe
+C:\Users\Usuario\source\repos\Ejercicio_13\Ejercicio_13\bin\Debug\Ejercicio_13.pdb
+C:\Users\Usuario\source\repos\Ejercicio_13\Ejercicio_13\obj\Debug\Ejercicio_13.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\Ejercicio_13\Ejercicio_13\obj\Debug\Ejercicio_13.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\Ejercicio_13\Ejercicio_13\obj\Debug\Ejercicio_13.exe
+C:\Users\Usuario\source\repos\Ejercicio_13\Ejercicio_13\obj\Debug\Ejercicio_13.pdb

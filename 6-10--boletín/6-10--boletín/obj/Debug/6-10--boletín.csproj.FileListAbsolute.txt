@@ -1,0 +1,7 @@
+C:\Users\Usuario\source\repos\6-10--boletín\6-10--boletín\bin\Debug\6-10--boletín.exe.config
+C:\Users\Usuario\source\repos\6-10--boletín\6-10--boletín\bin\Debug\6-10--boletín.exe
+C:\Users\Usuario\source\repos\6-10--boletín\6-10--boletín\bin\Debug\6-10--boletín.pdb
+C:\Users\Usuario\source\repos\6-10--boletín\6-10--boletín\obj\Debug\6-10--boletín.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\6-10--boletín\6-10--boletín\obj\Debug\6-10--boletín.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\6-10--boletín\6-10--boletín\obj\Debug\6-10--boletín.exe
+C:\Users\Usuario\source\repos\6-10--boletín\6-10--boletín\obj\Debug\6-10--boletín.pdb

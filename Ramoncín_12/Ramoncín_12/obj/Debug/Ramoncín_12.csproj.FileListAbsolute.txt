@@ -1,0 +1,7 @@
+C:\Users\Usuario\source\repos\Ramoncín_12\Ramoncín_12\obj\Debug\Ramoncín_12.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\Ramoncín_12\Ramoncín_12\obj\Debug\Ramoncín_12.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\Ramoncín_12\Ramoncín_12\bin\Debug\Ramoncín_12.exe.config
+C:\Users\Usuario\source\repos\Ramoncín_12\Ramoncín_12\bin\Debug\Ramoncín_12.exe
+C:\Users\Usuario\source\repos\Ramoncín_12\Ramoncín_12\bin\Debug\Ramoncín_12.pdb
+C:\Users\Usuario\source\repos\Ramoncín_12\Ramoncín_12\obj\Debug\Ramoncín_12.exe
+C:\Users\Usuario\source\repos\Ramoncín_12\Ramoncín_12\obj\Debug\Ramoncín_12.pdb
