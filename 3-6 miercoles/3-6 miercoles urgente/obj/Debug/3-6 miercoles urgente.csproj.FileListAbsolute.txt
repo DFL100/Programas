@@ -1,0 +1,7 @@
+C:\Users\Usuario\source\repos\3-6 miercoles urgente\3-6 miercoles urgente\bin\Debug\3-6 miercoles urgente.exe.config
+C:\Users\Usuario\source\repos\3-6 miercoles urgente\3-6 miercoles urgente\bin\Debug\3-6 miercoles urgente.exe
+C:\Users\Usuario\source\repos\3-6 miercoles urgente\3-6 miercoles urgente\bin\Debug\3-6 miercoles urgente.pdb
+C:\Users\Usuario\source\repos\3-6 miercoles urgente\3-6 miercoles urgente\obj\Debug\3-6 miercoles urgente.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\3-6 miercoles urgente\3-6 miercoles urgente\obj\Debug\3-6 miercoles urgente.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\3-6 miercoles urgente\3-6 miercoles urgente\obj\Debug\3-6 miercoles urgente.exe
+C:\Users\Usuario\source\repos\3-6 miercoles urgente\3-6 miercoles urgente\obj\Debug\3-6 miercoles urgente.pdb
