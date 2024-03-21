@@ -1,0 +1,8 @@
+C:\Users\Alumno\source\repos\PreexamenT8\bin\Debug\PreexamenT8.exe.config
+C:\Users\Alumno\source\repos\PreexamenT8\bin\Debug\PreexamenT8.exe
+C:\Users\Alumno\source\repos\PreexamenT8\bin\Debug\PreexamenT8.pdb
+C:\Users\Alumno\source\repos\PreexamenT8\obj\Debug\PreexamenT8.csproj.AssemblyReference.cache
+C:\Users\Alumno\source\repos\PreexamenT8\obj\Debug\PreexamenT8.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumno\source\repos\PreexamenT8\obj\Debug\PreexamenT8.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\source\repos\PreexamenT8\obj\Debug\PreexamenT8.exe
+C:\Users\Alumno\source\repos\PreexamenT8\obj\Debug\PreexamenT8.pdb

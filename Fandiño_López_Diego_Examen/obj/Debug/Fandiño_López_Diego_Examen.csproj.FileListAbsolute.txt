@@ -1,0 +1,8 @@
+C:\Users\Alumno\source\repos\Fandiño_López_Diego_Examen\bin\Debug\Fandiño_López_Diego_Examen.exe.config
+C:\Users\Alumno\source\repos\Fandiño_López_Diego_Examen\bin\Debug\Fandiño_López_Diego_Examen.exe
+C:\Users\Alumno\source\repos\Fandiño_López_Diego_Examen\bin\Debug\Fandiño_López_Diego_Examen.pdb
+C:\Users\Alumno\source\repos\Fandiño_López_Diego_Examen\obj\Debug\Fandiño_López_Diego_Examen.csproj.AssemblyReference.cache
+C:\Users\Alumno\source\repos\Fandiño_López_Diego_Examen\obj\Debug\Fandiño_López_Diego_Examen.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumno\source\repos\Fandiño_López_Diego_Examen\obj\Debug\Fandiño_López_Diego_Examen.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\source\repos\Fandiño_López_Diego_Examen\obj\Debug\Fandiño_López_Diego_Examen.exe
+C:\Users\Alumno\source\repos\Fandiño_López_Diego_Examen\obj\Debug\Fandiño_López_Diego_Examen.pdb

@@ -1,0 +1,8 @@
+C:\Users\Alumno\source\repos\Respuesta\bin\Debug\Respuesta.exe.config
+C:\Users\Alumno\source\repos\Respuesta\bin\Debug\Respuesta.exe
+C:\Users\Alumno\source\repos\Respuesta\bin\Debug\Respuesta.pdb
+C:\Users\Alumno\source\repos\Respuesta\obj\Debug\Respuesta.csproj.AssemblyReference.cache
+C:\Users\Alumno\source\repos\Respuesta\obj\Debug\Respuesta.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumno\source\repos\Respuesta\obj\Debug\Respuesta.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\source\repos\Respuesta\obj\Debug\Respuesta.exe
+C:\Users\Alumno\source\repos\Respuesta\obj\Debug\Respuesta.pdb

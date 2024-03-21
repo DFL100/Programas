@@ -1,109 +1,64 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _02Boletin
+namespace ejercicios
 {
-    class Program
+    internal class Program
     {
         static void Main(string[] args)
         {
 
-            Console.WriteLine("Escoge el ejercicio:");
-            int ejercicioxd = int.Parse(Console.ReadLine());
-     
-            if (ejercicioxd == 26)
+            Console.WriteLine("Elija un ejercicio entre el 31 y el 36");
+            int ejercicio = int.Parse(Console.ReadLine());
+            do
             {
 
-                double[] a26 = new double[100];
-                double A26 = 0;
-                double[] b26 = new double[100];
-                double B26 = 0;
-                double c26 = 0;
 
-                Random generador = new Random();
-
-                a26[0] = 5;
-                for (int i = 1; i < a26.Length; i++)
+                switch (ejercicio)
                 {
 
-                    a26[i] = generador.Next();
+                    case 1:
 
-                    Console.WriteLine("El valor " + i + " de a26 es " + a26[i]);
-                    A26 += a26[i];
 
-                }
-                Console.WriteLine("La suma de todas las celdas de a26 es " + A26);
+                        int n = 0;
 
-                Console.ReadLine();
+                        do
+                        {
 
-                b26[0] = 5;
+                            Console.WriteLine("Ingresa el valor de n");
+                            n = int.Parse(Console.ReadLine());
 
-                for (int i = 1; i < b26.Length; i++)
-                {
+                        }
+                        while (n > 10 || n < 0);
 
-                    b26[i] = generador.Next();
+                        int[] kali = new int[n];
 
-                    Console.WriteLine("El valor " + i + " de b26 es " + b26[i]);
-                    B26 += b26[i];
+                        Random random = new Random();
 
-                }
-                Console.WriteLine("La suma de todas las celdas de b26 es " + B26);
+                        for (int i = 0; i < n; i++)
+                        {
 
-                for (int i = 0; i < 100; i++)
-                {
+                            kali[i] = random.Next(0, 2);
+                            Console.Write(kali[i] + " , ");
 
-                    if (a26[i] == b26[i])
-                    {
+                        }
 
-                        Console.WriteLine("La cuadrícula " + i + " es igual en las dos arrays");
+                        Console.ReadLine();
+                        break;
 
-                    }
-                    else
-                    {
+                        case 2:
+                        break;
 
-                        Console.WriteLine("La cuadrícula " + i + " no es igual en las dos arrays");
-                        c26++;
-
-                    }
 
                 }
-
-                Console.ReadLine();
-
-                if (A26 == B26)
-                {
-
-                    Console.WriteLine("La suma de las dos arrays es la misma");
-
-                }
-                else
-                {
-
-                    Console.WriteLine("La suma de las dos arrays no es la misma");
-
-                }
-
-                Console.ReadLine();
-                if (c26 != 0)
-                {
-
-                    Console.WriteLine("Las arrays son distintas");
-
-                }
-                else
-                {
-
-                    Console.WriteLine("Las arrays son iguales");
-
-                }
-
             }
+            while (ejercicio > 36 || ejercicio < 31);
 
-            Console.ReadLine();
-        }
+        }   
+
     }
 }
+

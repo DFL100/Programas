@@ -1,0 +1,8 @@
+C:\Users\Alumno\source\repos\31-36\bin\Debug\31-36.exe.config
+C:\Users\Alumno\source\repos\31-36\bin\Debug\31-36.exe
+C:\Users\Alumno\source\repos\31-36\bin\Debug\31-36.pdb
+C:\Users\Alumno\source\repos\31-36\obj\Debug\31-36.csproj.AssemblyReference.cache
+C:\Users\Alumno\source\repos\31-36\obj\Debug\31-36.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumno\source\repos\31-36\obj\Debug\31-36.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\source\repos\31-36\obj\Debug\31-36.exe
+C:\Users\Alumno\source\repos\31-36\obj\Debug\31-36.pdb

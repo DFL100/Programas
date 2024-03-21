@@ -1,0 +1,8 @@
+C:\Users\Alumno\source\repos\Fandiño_Lopez_Diego_ExamenArrays\bin\Debug\Fandiño_Lopez_Diego_ExamenArrays.exe.config
+C:\Users\Alumno\source\repos\Fandiño_Lopez_Diego_ExamenArrays\bin\Debug\Fandiño_Lopez_Diego_ExamenArrays.exe
+C:\Users\Alumno\source\repos\Fandiño_Lopez_Diego_ExamenArrays\bin\Debug\Fandiño_Lopez_Diego_ExamenArrays.pdb
+C:\Users\Alumno\source\repos\Fandiño_Lopez_Diego_ExamenArrays\obj\Debug\Fandiño_Lopez_Diego_ExamenArrays.csproj.AssemblyReference.cache
+C:\Users\Alumno\source\repos\Fandiño_Lopez_Diego_ExamenArrays\obj\Debug\Fandiño_Lopez_Diego_ExamenArrays.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumno\source\repos\Fandiño_Lopez_Diego_ExamenArrays\obj\Debug\Fandiño_Lopez_Diego_ExamenArrays.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\source\repos\Fandiño_Lopez_Diego_ExamenArrays\obj\Debug\Fandiño_Lopez_Diego_ExamenArrays.exe
+C:\Users\Alumno\source\repos\Fandiño_Lopez_Diego_ExamenArrays\obj\Debug\Fandiño_Lopez_Diego_ExamenArrays.pdb

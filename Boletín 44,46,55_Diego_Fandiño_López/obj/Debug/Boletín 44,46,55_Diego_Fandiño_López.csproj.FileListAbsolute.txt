@@ -1,0 +1,8 @@
+C:\Users\Alumno\source\repos\Boletín 44,46,55_Diego_Fandiño_López\bin\Debug\Boletín 44,46,55_Diego_Fandiño_López.exe.config
+C:\Users\Alumno\source\repos\Boletín 44,46,55_Diego_Fandiño_López\bin\Debug\Boletín 44,46,55_Diego_Fandiño_López.exe
+C:\Users\Alumno\source\repos\Boletín 44,46,55_Diego_Fandiño_López\bin\Debug\Boletín 44,46,55_Diego_Fandiño_López.pdb
+C:\Users\Alumno\source\repos\Boletín 44,46,55_Diego_Fandiño_López\obj\Debug\Boletín 44,46,55_Diego_Fandiño_López.csproj.AssemblyReference.cache
+C:\Users\Alumno\source\repos\Boletín 44,46,55_Diego_Fandiño_López\obj\Debug\Boletín 44,46,55_Diego_Fandiño_López.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumno\source\repos\Boletín 44,46,55_Diego_Fandiño_López\obj\Debug\Boletín 44,46,55_Diego_Fandiño_López.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\source\repos\Boletín 44,46,55_Diego_Fandiño_López\obj\Debug\Boletín 44,46,55_Diego_Fandiño_López.exe
+C:\Users\Alumno\source\repos\Boletín 44,46,55_Diego_Fandiño_López\obj\Debug\Boletín 44,46,55_Diego_Fandiño_López.pdb
