@@ -1,0 +1,7 @@
+C:\Users\Usuario\source\repos\Ejercicio4-8\Ejercicio4-8\bin\Debug\Ejercicio4-8.exe.config
+C:\Users\Usuario\source\repos\Ejercicio4-8\Ejercicio4-8\bin\Debug\Ejercicio4-8.exe
+C:\Users\Usuario\source\repos\Ejercicio4-8\Ejercicio4-8\bin\Debug\Ejercicio4-8.pdb
+C:\Users\Usuario\source\repos\Ejercicio4-8\Ejercicio4-8\obj\Debug\Ejercicio4-8.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\Ejercicio4-8\Ejercicio4-8\obj\Debug\Ejercicio4-8.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\Ejercicio4-8\Ejercicio4-8\obj\Debug\Ejercicio4-8.exe
+C:\Users\Usuario\source\repos\Ejercicio4-8\Ejercicio4-8\obj\Debug\Ejercicio4-8.pdb

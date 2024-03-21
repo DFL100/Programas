@@ -1,0 +1,7 @@
+C:\Users\Usuario\source\repos\Ejercicio26--definitivo\Ejercicio26--definitivo\obj\Debug\Ejercicio26--definitivo.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\Ejercicio26--definitivo\Ejercicio26--definitivo\obj\Debug\Ejercicio26--definitivo.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\Ejercicio26--definitivo\Ejercicio26--definitivo\bin\Debug\Ejercicio26--definitivo.exe.config
+C:\Users\Usuario\source\repos\Ejercicio26--definitivo\Ejercicio26--definitivo\bin\Debug\Ejercicio26--definitivo.exe
+C:\Users\Usuario\source\repos\Ejercicio26--definitivo\Ejercicio26--definitivo\bin\Debug\Ejercicio26--definitivo.pdb
+C:\Users\Usuario\source\repos\Ejercicio26--definitivo\Ejercicio26--definitivo\obj\Debug\Ejercicio26--definitivo.exe
+C:\Users\Usuario\source\repos\Ejercicio26--definitivo\Ejercicio26--definitivo\obj\Debug\Ejercicio26--definitivo.pdb
