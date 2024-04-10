@@ -20,8 +20,7 @@ namespace _1_7_Tema9
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Escoge_ejercicio Escoge_ejercicio = new Escoge_ejercicio();
-            Escoge_ejercicio.ShowDialog();
+            this.Close();
         }
 
         int numerohoras;

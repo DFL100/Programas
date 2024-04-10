@@ -40,5 +40,29 @@ namespace _1_7_Tema9
             Ejercicio_4 Ejercicio4 = new Ejercicio_4();
             Ejercicio4.ShowDialog();
         }
+
+        private void Ejercicio5_Click(object sender, EventArgs e)
+        {
+            Ejercicio_5 Ejercicio5 = new Ejercicio_5();
+            Ejercicio5.ShowDialog();
+        }
+
+        private void Ejercicio6_Click(object sender, EventArgs e)
+        {
+            Ejercicio_6 Ejercicio6 = new Ejercicio_6();
+            Ejercicio6.ShowDialog();
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Ejercicio_7 Ejercicio7 = new Ejercicio_7();
+            Ejercicio7.ShowDialog();
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            Calculadora_EJ8 Ejercicio8 = new Calculadora_EJ8();
+            Ejercicio8.ShowDialog();
+        }
     }
 }

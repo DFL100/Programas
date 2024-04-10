@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Calculadora_EJ8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calculadora_EJ8.Designer.cs">
+      <DependentUpon>Calculadora_EJ8.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ejercicio 2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,6 +76,18 @@
     <Compile Include="Ejercicio3.Designer.cs">
       <DependentUpon>Ejercicio3.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ejercicio_6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicio_6.Designer.cs">
+      <DependentUpon>Ejercicio_6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio_7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicio_7.Designer.cs">
+      <DependentUpon>Ejercicio_7.cs</DependentUpon>
+    </Compile>
     <Compile Include="Escoge ejercicio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +102,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Calculadora_EJ8.resx">
+      <DependentUpon>Calculadora_EJ8.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Ejercicio 2.resx">
       <DependentUpon>Ejercicio 2.cs</DependentUpon>
     </EmbeddedResource>
@@ -95,6 +116,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Ejercicio3.resx">
       <DependentUpon>Ejercicio3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio_6.resx">
+      <DependentUpon>Ejercicio_6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio_7.resx">
+      <DependentUpon>Ejercicio_7.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Escoge ejercicio.resx">
       <DependentUpon>Escoge ejercicio.cs</DependentUpon>
