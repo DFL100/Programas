@@ -33,6 +33,7 @@ namespace _1_7_Tema9
         bool resta = false;
         bool division = false;
         bool multiplicacion = false;
+        bool porcentaje = false;
         //Valores
         double valorGuardado1 = 0;
         double valorGuardado2 = 0;
@@ -143,6 +144,8 @@ namespace _1_7_Tema9
             if (!string.IsNullOrEmpty(textBox1.Text))
             {
                 //Luego intento convertir el texto a un número binario
+                //Esto para convertir el texto de un TextBox a un número de tipo double
+                //En este caso se lo pone a la variable número
                 if (double.TryParse(textBox1.Text, out double numero))
                 {
                     // Convierte el número a binario (con el dos del final)
@@ -170,6 +173,8 @@ namespace _1_7_Tema9
             //Ver que el textbox1 no esté vacio
             if (!string.IsNullOrEmpty(textBox1.Text))
             {
+                //Esto para convertir el texto de un TextBox a un número de tipo double
+                //En este caso se lo pone a la variable número
                 if (double.TryParse(textBox1.Text, out double numero))
                 {
                     //Almacenar el valor en valorguardado
@@ -198,6 +203,8 @@ namespace _1_7_Tema9
                 //Ver que el textbox1 no esté vacio
                 if (!string.IsNullOrEmpty(textBox1.Text))
                 {
+                    //Esto para convertir el texto de un TextBox a un número de tipo double
+                    //En este caso se lo pone a la variable número
                     if (double.TryParse(textBox1.Text, out double numero))
                     {
                         //Almacenar el valor en valorguardado
@@ -223,6 +230,7 @@ namespace _1_7_Tema9
                 resta = false;
                 multiplicacion = false;
                 division = false;
+                porcentaje = false;
 
             }//Corchete de la suma
 
@@ -231,6 +239,8 @@ namespace _1_7_Tema9
                 //Ver que el textbox1 no esté vacio
                 if (!string.IsNullOrEmpty(textBox1.Text))
                 {
+                    //Esto para convertir el texto de un TextBox a un número de tipo double
+                    //En este caso se lo pone a la variable número
                     if (double.TryParse(textBox1.Text, out double numero))
                     {
                         //Almacenar el valor en valorguardado
@@ -255,6 +265,7 @@ namespace _1_7_Tema9
                 resta = false;
                 multiplicacion = false;
                 division = false;
+                porcentaje = false;
 
             }//Corchete resta
 
@@ -263,6 +274,8 @@ namespace _1_7_Tema9
                 //Ver que el textbox1 no esté vacio
                 if (!string.IsNullOrEmpty(textBox1.Text))
                 {
+                    //Esto para convertir el texto de un TextBox a un número de tipo double
+                    //En este caso se lo pone a la variable número
                     if (double.TryParse(textBox1.Text, out double numero))
                     {
                         //Almacenar el valor en valorguardado
@@ -287,6 +300,7 @@ namespace _1_7_Tema9
                 resta = false;
                 multiplicacion = false;
                 division = false;
+                porcentaje = false;
 
             }//Corchete division
 
@@ -295,6 +309,8 @@ namespace _1_7_Tema9
                 //Ver que el textbox1 no esté vacio
                 if (!string.IsNullOrEmpty(textBox1.Text))
                 {
+                    //Esto para convertir el texto de un TextBox a un número de tipo double
+                    //En este caso se lo pone a la variable número
                     if (double.TryParse(textBox1.Text, out double numero))
                     {
                         //Almacenar el valor en valorguardado
@@ -327,8 +343,47 @@ namespace _1_7_Tema9
                 resta = false;
                 multiplicacion = false;
                 division = false;
+                porcentaje = false;
 
             }//Corchete multiplicación
+
+            if (porcentaje)
+            {
+
+                //Ver que el textbox1 no esté vacio
+                if (!string.IsNullOrEmpty(textBox1.Text))
+                {
+                    //Esto para convertir el texto de un TextBox a un número de tipo double
+                    //En este caso se lo pone a la variable número
+                    if (double.TryParse(textBox1.Text, out double numero))
+                    {
+                        
+                        valorGuardado2 = numero;
+                        
+                        double valorguardado11 = (valorGuardado2 * valorGuardado1) / 100;
+                        //Calcular el porcentaje
+                        
+                        textBox1.Text = valorguardado11.ToString();
+                        
+                    }
+                    else
+                    {
+                        MessageBox.Show("Por favor, escribe un número válido.", "Error 404:", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("El TextBox está vacío.", "Error 404:", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+
+                //Pasamos todos los calculos a false
+                suma = false;
+                resta = false;
+                multiplicacion = false;
+                division = false;
+                porcentaje = false;
+
+            }//Corchete porcentaje
 
         }
 
@@ -339,6 +394,8 @@ namespace _1_7_Tema9
             //Ver que el textbox1 no esté vacio
             if (!string.IsNullOrEmpty(textBox1.Text))
             {
+                //Esto para convertir el texto de un TextBox a un número de tipo double
+                //En este caso se lo pone a la variable número
                 if (double.TryParse(textBox1.Text, out double numero))
                 {
                     //Almacenar el valor en valorguardado
@@ -365,6 +422,8 @@ namespace _1_7_Tema9
             //Ver que el textbox1 no esté vacio
             if (!string.IsNullOrEmpty(textBox1.Text))
             {
+                //Esto para convertir el texto de un TextBox a un número de tipo double
+                //En este caso se lo pone a la variable número
                 if (double.TryParse(textBox1.Text, out double numero))
                 {
                     //Almacenar el valor en valorguardado
@@ -392,6 +451,8 @@ namespace _1_7_Tema9
             //Ver que el textbox1 no esté vacio
             if (!string.IsNullOrEmpty(textBox1.Text))
             {
+                //Esto para convertir el texto de un TextBox a un número de tipo double
+                //En este caso se lo pone a la variable número
                 if (double.TryParse(textBox1.Text, out double numero))
                 {
                     //Almacenar el valor en valorguardado
@@ -412,6 +473,57 @@ namespace _1_7_Tema9
                 else
                 {
                     MessageBox.Show("Por favor, escribe un número válido.", "Error 404:", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            else
+            {
+                MessageBox.Show("El TextBox está vacío.", "Error 404:", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void btnraiz_Click(object sender, EventArgs e)
+        {
+            //Ver que el textbox1 no esté vacio 
+            if (!string.IsNullOrEmpty(textBox1.Text))
+            {
+                //Es para convertir el texto de un TextBox a un número de tipo double
+                //En este caso se lo pone a la variable número
+                if (double.TryParse(textBox1.Text, out double numero))
+                {
+                    double resultadoRaiz = Math.Sqrt(numero);
+                    textBox1.Text = resultadoRaiz.ToString();
+                }
+                else
+                {
+                    MessageBox.Show("Por favor, ingresa un número válido.", "Error 404:", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            else
+            {
+                MessageBox.Show("El TextBox está vacío.", "Error 404:", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void btnporcentaje_Click(object sender, EventArgs e)
+        {
+            //Ver que el textbox1 no esté vacio 
+            if (!string.IsNullOrEmpty(textBox1.Text))
+            {
+                //Esto para convertir el texto de un TextBox a un número de tipo double
+                //En este caso se lo pone a la variable número
+                if (double.TryParse(textBox1.Text, out double numero))
+                {
+                    //Le asignamos el primer valor
+                    valorGuardado1 = numero;
+                    //Le borramos el contenido del textbox1
+                    //Lo podría hacer como en los demás apartados
+                    //Pero como tambien lo se hacer así y me apetece pues lo hago con el .clear :)
+                    textBox1.Clear();
+
+                }
+                else
+                {
+                    MessageBox.Show("Por favor, ingresa un número válido.", "Error 404:", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             else

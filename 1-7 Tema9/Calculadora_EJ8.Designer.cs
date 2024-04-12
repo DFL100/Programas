@@ -256,6 +256,7 @@
             this.btnporcentaje.TabIndex = 19;
             this.btnporcentaje.Text = "%";
             this.btnporcentaje.UseVisualStyleBackColor = true;
+            this.btnporcentaje.Click += new System.EventHandler(this.btnporcentaje_Click);
             // 
             // btnmm
             // 
@@ -274,6 +275,7 @@
             this.btnraiz.TabIndex = 21;
             this.btnraiz.Text = "Raíz";
             this.btnraiz.UseVisualStyleBackColor = true;
+            this.btnraiz.Click += new System.EventHandler(this.btnraiz_Click);
             // 
             // btnm
             // 
