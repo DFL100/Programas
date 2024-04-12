@@ -506,6 +506,8 @@ namespace _1_7_Tema9
 
         private void btnporcentaje_Click(object sender, EventArgs e)
         {
+            //Pasar porcentaje a true
+            porcentaje = true;
             //Ver que el textbox1 no esté vacio 
             if (!string.IsNullOrEmpty(textBox1.Text))
             {
