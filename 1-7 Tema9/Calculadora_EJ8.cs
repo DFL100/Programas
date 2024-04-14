@@ -39,6 +39,8 @@ namespace _1_7_Tema9
         double valorGuardado2 = 0;
         //Verificar
         bool verificacionsuma = false;
+        //BBDD
+        double MS = 0;
 
         //Le metemos los valores númericos
 
@@ -532,6 +534,38 @@ namespace _1_7_Tema9
             {
                 MessageBox.Show("El TextBox está vacío.", "Error 404:", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void bbtnMS_Click(object sender, EventArgs e)
+        {
+            //Guardar el último valor de la textbox
+            MS = double.Parse(textBox1.Text);
+        }
+
+        private void btnMR_Click(object sender, EventArgs e)
+        {
+            //Mostrar el valor gusrdado
+            textBox1.Text = MS.ToString();
+        }
+
+        private void btnmm_Click(object sender, EventArgs e)
+        {
+            //Sumarle el valor del textbox al valor guardado
+            double sumaMS = double.Parse(textBox1.Text);
+            MS += sumaMS;
+        }
+
+        private void btnm_Click(object sender, EventArgs e)
+        {
+            //Restamos el valor de la textbox al valor guardado
+            double restaMS = double.Parse(textBox1.Text);
+            MS -= restaMS;
+        }
+
+        private void btnMC_Click(object sender, EventArgs e)
+        {
+            //Borramos memoria y la dejamos a 0
+            MS = 0;
         }
     }
 }

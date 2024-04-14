@@ -64,5 +64,11 @@ namespace _1_7_Tema9
             Calculadora_EJ8 Ejercicio8 = new Calculadora_EJ8();
             Ejercicio8.ShowDialog();
         }
+
+        private void btnejercicio9_Click(object sender, EventArgs e)
+        {
+            Ejercicio_9 Ejercicio9 = new Ejercicio_9();
+            Ejercicio9.ShowDialog();
+        }
     }
 }

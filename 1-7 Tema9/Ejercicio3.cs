@@ -69,7 +69,7 @@ namespace _1_7_Tema9
 
         private void Triangulo_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("La base del triangulo es " + (valoralturat * valorbaset) / 2);
+            MessageBox.Show("El área del triangulo es " + (valoralturat * valorbaset) / 2);
         }
     }
 }

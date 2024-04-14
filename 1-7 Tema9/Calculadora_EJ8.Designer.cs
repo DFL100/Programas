@@ -266,6 +266,7 @@
             this.btnmm.TabIndex = 20;
             this.btnmm.Text = "M+";
             this.btnmm.UseVisualStyleBackColor = true;
+            this.btnmm.Click += new System.EventHandler(this.btnmm_Click);
             // 
             // btnraiz
             // 
@@ -285,6 +286,7 @@
             this.btnm.TabIndex = 22;
             this.btnm.Text = "M-";
             this.btnm.UseVisualStyleBackColor = true;
+            this.btnm.Click += new System.EventHandler(this.btnm_Click);
             // 
             // btnMR
             // 
@@ -294,6 +296,7 @@
             this.btnMR.TabIndex = 23;
             this.btnMR.Text = "MR";
             this.btnMR.UseVisualStyleBackColor = true;
+            this.btnMR.Click += new System.EventHandler(this.btnMR_Click);
             // 
             // btncos
             // 
@@ -321,6 +324,7 @@
             this.bbtnMS.TabIndex = 26;
             this.bbtnMS.Text = "MS";
             this.bbtnMS.UseVisualStyleBackColor = true;
+            this.bbtnMS.Click += new System.EventHandler(this.bbtnMS_Click);
             // 
             // btnMC
             // 
@@ -330,6 +334,7 @@
             this.btnMC.TabIndex = 27;
             this.btnMC.Text = "MC";
             this.btnMC.UseVisualStyleBackColor = true;
+            this.btnMC.Click += new System.EventHandler(this.btnMC_Click);
             // 
             // btnbinario
             // 
