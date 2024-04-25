@@ -132,12 +132,11 @@ namespace _1_7_Tema9
             //bool a = false;
             //do
             //{
-                Escoge_ejercicio Ejercicio2 = new Escoge_ejercicio();
-                Ejercicio2.ShowDialog();
+            this.Close();
             //}
             //while (a = true);
             //Quitar comentarios para bromita
-            
+
         }
 
         private void Ejercicio_2_Load(object sender, EventArgs e)

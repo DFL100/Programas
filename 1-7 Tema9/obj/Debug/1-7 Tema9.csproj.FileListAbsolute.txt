@@ -33,3 +33,22 @@ C:\Users\Alumno\Documents\GitHub\Programas\1-7 Tema9\obj\Debug\1-7 Tema9.pdb
 C:\Users\Alumno\Documents\GitHub\Programas\1-7 Tema9\obj\Debug\_1_7_Tema9.Ejercicio_6.resources
 C:\Users\Alumno\Documents\GitHub\Programas\1-7 Tema9\obj\Debug\_1_7_Tema9.Ejercicio_7.resources
 C:\Users\Alumno\Documents\GitHub\Programas\1-7 Tema9\obj\Debug\_1_7_Tema9.Calculadora_EJ8.resources
+C:\Users\diego\OneDrive\Escritorio\1-7 Tema9\bin\Debug\1-7 Tema9.exe.config
+C:\Users\diego\OneDrive\Escritorio\1-7 Tema9\bin\Debug\1-7 Tema9.exe
+C:\Users\diego\OneDrive\Escritorio\1-7 Tema9\bin\Debug\1-7 Tema9.pdb
+C:\Users\diego\OneDrive\Escritorio\1-7 Tema9\obj\Debug\1-7 Tema9.csproj.AssemblyReference.cache
+C:\Users\diego\OneDrive\Escritorio\1-7 Tema9\obj\Debug\_1_7_Tema9.Calculadora_EJ8.resources
+C:\Users\diego\OneDrive\Escritorio\1-7 Tema9\obj\Debug\_1_7_Tema9.Ejercicio_2.resources
+C:\Users\diego\OneDrive\Escritorio\1-7 Tema9\obj\Debug\_1_7_Tema9.Ejercicio_4.resources
+C:\Users\diego\OneDrive\Escritorio\1-7 Tema9\obj\Debug\_1_7_Tema9.Ejercicio_5.resources
+C:\Users\diego\OneDrive\Escritorio\1-7 Tema9\obj\Debug\_1_7_Tema9.Ejercicio3.resources
+C:\Users\diego\OneDrive\Escritorio\1-7 Tema9\obj\Debug\_1_7_Tema9.Ejercicio_6.resources
+C:\Users\diego\OneDrive\Escritorio\1-7 Tema9\obj\Debug\_1_7_Tema9.Ejercicio_7.resources
+C:\Users\diego\OneDrive\Escritorio\1-7 Tema9\obj\Debug\_1_7_Tema9.Escoge_ejercicio.resources
+C:\Users\diego\OneDrive\Escritorio\1-7 Tema9\obj\Debug\_1_7_Tema9.Form1.resources
+C:\Users\diego\OneDrive\Escritorio\1-7 Tema9\obj\Debug\_1_7_Tema9.Properties.Resources.resources
+C:\Users\diego\OneDrive\Escritorio\1-7 Tema9\obj\Debug\1-7 Tema9.csproj.GenerateResource.cache
+C:\Users\diego\OneDrive\Escritorio\1-7 Tema9\obj\Debug\1-7 Tema9.csproj.CoreCompileInputs.cache
+C:\Users\diego\OneDrive\Escritorio\1-7 Tema9\obj\Debug\1-7 Tema9.exe
+C:\Users\diego\OneDrive\Escritorio\1-7 Tema9\obj\Debug\1-7 Tema9.pdb
+C:\Users\diego\OneDrive\Escritorio\1-7 Tema9\obj\Debug\_1_7_Tema9.Ejercicio_9.resources
