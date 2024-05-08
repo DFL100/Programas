@@ -1,0 +1,12 @@
+C:\Users\Alumno\source\repos\Proyecto_Tema10_Para_Ramon_Fandiño\bin\Debug\Proyecto_Tema10_Para_Ramon_Fandiño.exe.config
+C:\Users\Alumno\source\repos\Proyecto_Tema10_Para_Ramon_Fandiño\bin\Debug\Proyecto_Tema10_Para_Ramon_Fandiño.exe
+C:\Users\Alumno\source\repos\Proyecto_Tema10_Para_Ramon_Fandiño\bin\Debug\Proyecto_Tema10_Para_Ramon_Fandiño.pdb
+C:\Users\Alumno\source\repos\Proyecto_Tema10_Para_Ramon_Fandiño\obj\Debug\Proyecto_Tema10_Para_Ramon_Fandiño.csproj.AssemblyReference.cache
+C:\Users\Alumno\source\repos\Proyecto_Tema10_Para_Ramon_Fandiño\obj\Debug\Proyecto_Tema10_Para_Ramon_Fandiño.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumno\source\repos\Proyecto_Tema10_Para_Ramon_Fandiño\obj\Debug\Proyecto_Tema10_Para_Ramon_Fandiño.Form1.resources
+C:\Users\Alumno\source\repos\Proyecto_Tema10_Para_Ramon_Fandiño\obj\Debug\Proyecto_Tema10_Para_Ramon_Fandiño.Properties.Resources.resources
+C:\Users\Alumno\source\repos\Proyecto_Tema10_Para_Ramon_Fandiño\obj\Debug\Proyecto_Tema10_Para_Ramon_Fandiño.csproj.GenerateResource.cache
+C:\Users\Alumno\source\repos\Proyecto_Tema10_Para_Ramon_Fandiño\obj\Debug\Proyecto_Tema10_Para_Ramon_Fandiño.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\source\repos\Proyecto_Tema10_Para_Ramon_Fandiño\obj\Debug\Proyecto_Tema10_Para_Ramon_Fandiño.exe
+C:\Users\Alumno\source\repos\Proyecto_Tema10_Para_Ramon_Fandiño\obj\Debug\Proyecto_Tema10_Para_Ramon_Fandiño.pdb
+C:\Users\Alumno\source\repos\Proyecto_Tema10_Para_Ramon_Fandiño\obj\Debug\Proyecto_Tema10_Para_Ramon_Fandiño.Ejercicio_1.resources
