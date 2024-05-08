@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F77D5F0F-E201-45B8-8637-5F24C7C2A4D2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Tema10</RootNamespace>
+    <AssemblyName>Tema10</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ejercicio2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicio2.Designer.cs">
+      <DependentUpon>Ejercicio2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio_5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicio_5.Designer.cs">
+      <DependentUpon>Ejercicio_5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio_6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicio_6.Designer.cs">
+      <DependentUpon>Ejercicio_6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio_7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicio_7.Designer.cs">
+      <DependentUpon>Ejercicio_7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio_8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicio_8.Designer.cs">
+      <DependentUpon>Ejercicio_8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio_9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicio_9.Designer.cs">
+      <DependentUpon>Ejercicio_9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Ejercicio2.resx">
+      <DependentUpon>Ejercicio2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio_5.resx">
+      <DependentUpon>Ejercicio_5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio_6.resx">
+      <DependentUpon>Ejercicio_6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio_7.resx">
+      <DependentUpon>Ejercicio_7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio_8.resx">
+      <DependentUpon>Ejercicio_8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio_9.resx">
+      <DependentUpon>Ejercicio_9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ubuntu-16.04-xenial-xerus-review-que-es-ubuntu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mintt.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\setup_kail_linux_featured.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bondoro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gratis-png-cristiano-ronaldo-jugando-futbol-__jugando-ronaldo-thumbnail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gratis-png-cristiano-ronaldo-jugando-futbol-__jugando-ronaldo-thumbnail1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Unacara.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dos Caras.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tres Caras.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cuatro Caras.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cinco Caras.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Seis Caras.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

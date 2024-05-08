@@ -1,0 +1,15 @@
+C:\Users\diego\OneDrive\Escritorio\Proyecto Tema10\Tema10\Tema10\bin\Debug\Tema10.exe.config
+C:\Users\diego\OneDrive\Escritorio\Proyecto Tema10\Tema10\Tema10\bin\Debug\Tema10.exe
+C:\Users\diego\OneDrive\Escritorio\Proyecto Tema10\Tema10\Tema10\bin\Debug\Tema10.pdb
+C:\Users\diego\OneDrive\Escritorio\Proyecto Tema10\Tema10\Tema10\obj\Debug\Tema10.csproj.AssemblyReference.cache
+C:\Users\diego\OneDrive\Escritorio\Proyecto Tema10\Tema10\Tema10\obj\Debug\Tema10.Ejercicio2.resources
+C:\Users\diego\OneDrive\Escritorio\Proyecto Tema10\Tema10\Tema10\obj\Debug\Tema10.Properties.Resources.resources
+C:\Users\diego\OneDrive\Escritorio\Proyecto Tema10\Tema10\Tema10\obj\Debug\Tema10.csproj.GenerateResource.cache
+C:\Users\diego\OneDrive\Escritorio\Proyecto Tema10\Tema10\Tema10\obj\Debug\Tema10.csproj.CoreCompileInputs.cache
+C:\Users\diego\OneDrive\Escritorio\Proyecto Tema10\Tema10\Tema10\obj\Debug\Tema10.exe
+C:\Users\diego\OneDrive\Escritorio\Proyecto Tema10\Tema10\Tema10\obj\Debug\Tema10.pdb
+C:\Users\diego\OneDrive\Escritorio\Proyecto Tema10\Tema10\Tema10\obj\Debug\Tema10.Ejercicio_5.resources
+C:\Users\diego\OneDrive\Escritorio\Proyecto Tema10\Tema10\Tema10\obj\Debug\Tema10.Ejercicio_6.resources
+C:\Users\diego\OneDrive\Escritorio\Proyecto Tema10\Tema10\Tema10\obj\Debug\Tema10.Ejercicio_7.resources
+C:\Users\diego\OneDrive\Escritorio\Proyecto Tema10\Tema10\Tema10\obj\Debug\Tema10.Ejercicio_8.resources
+C:\Users\diego\OneDrive\Escritorio\Proyecto Tema10\Tema10\Tema10\obj\Debug\Tema10.Ejercicio_9.resources
