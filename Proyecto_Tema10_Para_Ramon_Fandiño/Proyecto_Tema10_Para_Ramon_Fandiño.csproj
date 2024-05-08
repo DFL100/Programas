@@ -53,6 +53,12 @@
     <Compile Include="Ejercicio_1.Designer.cs">
       <DependentUpon>Ejercicio_1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ejercicio_10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicio_10.Designer.cs">
+      <DependentUpon>Ejercicio_10.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ejercicio_3.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +81,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Ejercicio_1.resx">
       <DependentUpon>Ejercicio_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio_10.resx">
+      <DependentUpon>Ejercicio_10.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ejercicio_3.resx">
       <DependentUpon>Ejercicio_3.cs</DependentUpon>
@@ -110,6 +119,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\boladisco1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-minimal-football-scoreboard-template-png-image_8811600.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -39,5 +39,11 @@ namespace Proyecto_Tema10_Para_Ramon_Fandiño
             Ejercicio_3 Ejercicio_3 = new Ejercicio_3();
             Ejercicio_3.ShowDialog();
         }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            Ejercicio_10 Ejercicio_10 = new Ejercicio_10();
+            Ejercicio_10.ShowDialog();
+        }
     }
 }

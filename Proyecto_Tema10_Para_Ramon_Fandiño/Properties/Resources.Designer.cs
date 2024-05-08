@@ -69,5 +69,15 @@ namespace Proyecto_Tema10_Para_Ramon_Fandiño.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngtree_minimal_football_scoreboard_template_png_image_8811600 {
+            get {
+                object obj = ResourceManager.GetObject("pngtree-minimal-football-scoreboard-template-png-image_8811600", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
