@@ -179,6 +179,7 @@
             this.button13.TabIndex = 12;
             this.button13.Text = "Volver a empezar";
             this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.button13_Click_1);
             // 
             // label1
             // 

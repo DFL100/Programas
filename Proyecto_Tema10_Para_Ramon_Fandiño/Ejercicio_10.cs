@@ -27,10 +27,7 @@ namespace Proyecto_Tema10_Para_Ramon_Fandiño
            //False --> JugadorO
         private void Ejercicio_10_Load(object sender, EventArgs e)
         {
-            if (button1.Text == "X" && button2.Text =="X" && button3.Text =="X")
-            {
-                MessageBox.Show("Gana X");
-            }
+            
         }
 
         private void button10_Click(object sender, EventArgs e)
@@ -39,6 +36,8 @@ namespace Proyecto_Tema10_Para_Ramon_Fandiño
 
             jugadorX = true;
             jugadorO = false;
+
+            VerificarGanador();
         }
 
         private void button11_Click(object sender, EventArgs e)
@@ -47,6 +46,8 @@ namespace Proyecto_Tema10_Para_Ramon_Fandiño
             
                 jugadorX = false;
                 jugadorO = true;
+
+            VerificarGanador();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -58,19 +59,24 @@ namespace Proyecto_Tema10_Para_Ramon_Fandiño
             if (jugadorX == true)
             {
                 button1.Text = "X";
+                //return;
+                VerificarGanador();
                 return;
             }
             if(jugadorO == true)
             {
                 button1.Text = "O";
+                //return;
+                VerificarGanador();
                 return;
             }
+            
 
             //_________________________________________
 
             //Forma automática
 
-            if(cambio == true)
+            if (cambio == true)
             {
                 button1.Text = "X";
             }
@@ -83,11 +89,13 @@ namespace Proyecto_Tema10_Para_Ramon_Fandiño
             if (cambio == true)
             {
                 cambio = false;
+                VerificarGanador();
                 return;
             }
             if (cambio == false)
             {
                 cambio = true;
+                VerificarGanador();
                 return;
             }
 
@@ -102,14 +110,18 @@ namespace Proyecto_Tema10_Para_Ramon_Fandiño
             if (jugadorX == true)
             {
                 button2.Text = "X";
+                VerificarGanador();
                 return;
             }
             if (jugadorO == true)
             {
                 button2.Text = "O";
-                return;
+                VerificarGanador();
+                return ;
             }
 
+            //VerificarGanador();
+            
             //_________________________________________
 
             //Forma automática
@@ -127,11 +139,13 @@ namespace Proyecto_Tema10_Para_Ramon_Fandiño
             if (cambio == true)
             {
                 cambio = false;
+                VerificarGanador();
                 return;
             }
             if (cambio == false)
             {
                 cambio = true;
+                VerificarGanador();
                 return;
             }
         }
@@ -148,18 +162,63 @@ namespace Proyecto_Tema10_Para_Ramon_Fandiño
         {
             //Botón 3
 
+            /*Forma manual
+            
+                if (jugadorX == true)
+                {
+                    button3.Text = "X";
+                }
+                else if (jugadorO == true)
+                {
+                    button3.Text = "O";
+                }
+
+                VerificarGanador();
+            
+            
+
+            //Cambio de jugador
+            if (cambio == true)
+            {
+                cambio = false;
+            }
+            else
+            {
+                cambio = true;
+            }
+
+            //Forma automática
+
+            if (cambio == true)
+            {
+                button3.Text = "X";
+            }
+            else
+            {
+                button3.Text = "O";
+            }
+
+            VerificarGanador();
+
+            //Cambio de jugador
+            cambio = !cambio;*/
+
             //Forma manual
 
             if (jugadorX == true)
             {
                 button3.Text = "X";
+                VerificarGanador();
                 return;
             }
             if (jugadorO == true)
             {
                 button3.Text = "O";
+                VerificarGanador();
                 return;
             }
+
+            //VerificarGanador();
 
             //_________________________________________
 
@@ -174,17 +233,24 @@ namespace Proyecto_Tema10_Para_Ramon_Fandiño
                 button3.Text = "O";
             }
 
+            VerificarGanador();
+
             //Cambio de jugador
             if (cambio == true)
             {
                 cambio = false;
+                VerificarGanador();
                 return;
             }
             if (cambio == false)
             {
                 cambio = true;
+                VerificarGanador();
                 return;
             }
+
+
+
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -196,11 +262,13 @@ namespace Proyecto_Tema10_Para_Ramon_Fandiño
             if (jugadorX == true)
             {
                 button4.Text = "X";
+                VerificarGanador();
                 return;
             }
             if (jugadorO == true)
             {
                 button4.Text = "O";
+                VerificarGanador();
                 return;
             }
 
@@ -221,11 +289,13 @@ namespace Proyecto_Tema10_Para_Ramon_Fandiño
             if (cambio == true)
             {
                 cambio = false;
+                VerificarGanador();
                 return;
             }
             if (cambio == false)
             {
                 cambio = true;
+                VerificarGanador();
                 return;
             }
         }
@@ -239,11 +309,13 @@ namespace Proyecto_Tema10_Para_Ramon_Fandiño
             if (jugadorX == true)
             {
                 button5.Text = "X";
+                VerificarGanador();
                 return;
             }
             if (jugadorO == true)
             {
                 button5.Text = "O";
+                VerificarGanador();
                 return;
             }
 
@@ -264,11 +336,13 @@ namespace Proyecto_Tema10_Para_Ramon_Fandiño
             if (cambio == true)
             {
                 cambio = false;
+                VerificarGanador();
                 return;
             }
             if (cambio == false)
             {
                 cambio = true;
+                VerificarGanador();
                 return;
             }
         }
@@ -282,11 +356,13 @@ namespace Proyecto_Tema10_Para_Ramon_Fandiño
             if (jugadorX == true)
             {
                 button6.Text = "X";
+                VerificarGanador();
                 return;
             }
             if (jugadorO == true)
             {
                 button6.Text = "O";
+                VerificarGanador();
                 return;
             }
 
@@ -307,11 +383,13 @@ namespace Proyecto_Tema10_Para_Ramon_Fandiño
             if (cambio == true)
             {
                 cambio = false;
+                VerificarGanador();
                 return;
             }
             if (cambio == false)
             {
                 cambio = true;
+                VerificarGanador();
                 return;
             }
         }
@@ -325,11 +403,13 @@ namespace Proyecto_Tema10_Para_Ramon_Fandiño
             if (jugadorX == true)
             {
                 button7.Text = "X";
+                VerificarGanador();
                 return;
             }
             if (jugadorO == true)
             {
                 button7.Text = "O";
+                VerificarGanador();
                 return;
             }
 
@@ -350,11 +430,13 @@ namespace Proyecto_Tema10_Para_Ramon_Fandiño
             if (cambio == true)
             {
                 cambio = false;
+                VerificarGanador();
                 return;
             }
             if (cambio == false)
             {
                 cambio = true;
+                VerificarGanador();
                 return;
             }
         }
@@ -368,11 +450,13 @@ namespace Proyecto_Tema10_Para_Ramon_Fandiño
             if (jugadorX == true)
             {
                 button8.Text = "X";
+                VerificarGanador();
                 return;
             }
             if (jugadorO == true)
             {
                 button8.Text = "O";
+                VerificarGanador();
                 return;
             }
 
@@ -393,11 +477,13 @@ namespace Proyecto_Tema10_Para_Ramon_Fandiño
             if (cambio == true)
             {
                 cambio = false;
+                VerificarGanador();
                 return;
             }
             if (cambio == false)
             {
                 cambio = true;
+                VerificarGanador();
                 return;
             }
         }
@@ -411,11 +497,13 @@ namespace Proyecto_Tema10_Para_Ramon_Fandiño
             if (jugadorX == true)
             {
                 button9.Text = "X";
+                VerificarGanador();
                 return;
             }
             if (jugadorO == true)
             {
                 button9.Text = "O";
+                VerificarGanador();
                 return;
             }
 
@@ -436,11 +524,13 @@ namespace Proyecto_Tema10_Para_Ramon_Fandiño
             if (cambio == true)
             {
                 cambio = false;
+                VerificarGanador();
                 return;
             }
             if (cambio == false)
             {
                 cambio = true;
+                VerificarGanador();
                 return;
             }
         }
@@ -448,6 +538,155 @@ namespace Proyecto_Tema10_Para_Ramon_Fandiño
         private void button13_Click(object sender, EventArgs e)
         {
            
+        }
+
+        private void button13_Click_1(object sender, EventArgs e)
+        {
+            //Volver a empezar
+            button1.Text = "";
+            button2.Text = "";
+            button3.Text = "";
+            button4.Text = "";
+            button5.Text = "";
+            button6.Text = "";
+            button7.Text = "";
+            button8.Text = "";
+            button9.Text = "";
+        }
+
+
+        private void VerificarGanador()
+        {
+
+        //Con X
+        //Horizontales
+
+            //Verifica si el texto de los botones 1, 2 y 3 es "X" cuando el formulario se carga.
+            if (button1.Text == "X" && button2.Text == "X" && button3.Text == "X")
+            {
+                //Si todos los botones tienen el texto "X", muestra un mensaje indicando que "X" ha ganado.
+                MessageBox.Show("Gana X");
+            }
+
+            //Verifica si el texto de los botones 1, 2 y 3 es "X" cuando el formulario se carga.
+            if (button4.Text == "X" && button5.Text == "X" && button6.Text == "X")
+            {
+                //Si todos los botones tienen el texto "X", muestra un mensaje indicando que "X" ha ganado.
+                MessageBox.Show("Gana X");
+            }
+
+            //Verifica si el texto de los botones 1, 2 y 3 es "X" cuando el formulario se carga.
+            if (button7.Text == "X" && button8.Text == "X" && button9.Text == "X")
+            {
+                //Si todos los botones tienen el texto "X", muestra un mensaje indicando que "X" ha ganado.
+                MessageBox.Show("Gana X");
+            }
+
+
+        //Verticales
+
+            //Verifica si el texto de los botones 1, 2 y 3 es "X" cuando el formulario se carga.
+            if (button1.Text == "X" && button6.Text == "X" && button9.Text == "X")
+            {
+                //Si todos los botones tienen el texto "X", muestra un mensaje indicando que "X" ha ganado.
+                MessageBox.Show("Gana X");
+            }
+
+            //Verifica si el texto de los botones 1, 2 y 3 es "X" cuando el formulario se carga.
+            if (button2.Text == "X" && button5.Text == "X" && button8.Text == "X")
+            {
+                //Si todos los botones tienen el texto "X", muestra un mensaje indicando que "X" ha ganado.
+                MessageBox.Show("Gana X");
+            }
+
+            //Verifica si el texto de los botones 1, 2 y 3 es "X" cuando el formulario se carga.
+            if (button3.Text == "X" && button4.Text == "X" && button7.Text == "X")
+            {
+                //Si todos los botones tienen el texto "X", muestra un mensaje indicando que "X" ha ganado.
+                MessageBox.Show("Gana X");
+            }
+
+        //Cruzados
+
+            //Verifica si el texto de los botones 1, 2 y 3 es "X" cuando el formulario se carga.
+            if (button1.Text == "X" && button5.Text == "X" && button7.Text == "X")
+            {
+                //Si todos los botones tienen el texto "X", muestra un mensaje indicando que "X" ha ganado.
+                MessageBox.Show("Gana X");
+            }
+
+            //Verifica si el texto de los botones 1, 2 y 3 es "X" cuando el formulario se carga.
+            if (button3.Text == "X" && button5.Text == "X" && button9.Text == "X")
+            {
+                //Si todos los botones tienen el texto "X", muestra un mensaje indicando que "X" ha ganado.
+                MessageBox.Show("Gana X");
+            }
+
+
+        //Con X
+        //Horizontales
+
+            //Verifica si el texto de los botones 1, 2 y 3 es "X" cuando el formulario se carga.
+            if (button1.Text == "O" && button2.Text == "O" && button3.Text == "O")
+            {
+                //Si todos los botones tienen el texto "X", muestra un mensaje indicando que "X" ha ganado.
+                MessageBox.Show("Gana O");
+            }
+
+            //Verifica si el texto de los botones 1, 2 y 3 es "X" cuando el formulario se carga.
+            if (button4.Text == "O" && button5.Text == "O" && button6.Text == "O")
+            {
+                //Si todos los botones tienen el texto "X", muestra un mensaje indicando que "X" ha ganado.
+                MessageBox.Show("Gana O");
+            }
+
+            //Verifica si el texto de los botones 1, 2 y 3 es "X" cuando el formulario se carga.
+            if (button7.Text == "O" && button8.Text == "O" && button9.Text == "O")
+            {
+                //Si todos los botones tienen el texto "X", muestra un mensaje indicando que "X" ha ganado.
+                MessageBox.Show("Gana O");
+            }
+
+
+        //Verticales
+
+            //Verifica si el texto de los botones 1, 2 y 3 es "X" cuando el formulario se carga.
+            if (button1.Text == "O" && button6.Text == "O" && button9.Text == "O")
+            {
+                //Si todos los botones tienen el texto "X", muestra un mensaje indicando que "X" ha ganado.
+                MessageBox.Show("Gana X");
+            }
+
+            //Verifica si el texto de los botones 1, 2 y 3 es "X" cuando el formulario se carga.
+            if (button2.Text == "O" && button5.Text == "O" && button8.Text == "O")
+            {
+                //Si todos los botones tienen el texto "X", muestra un mensaje indicando que "X" ha ganado.
+                MessageBox.Show("Gana O");
+            }
+
+            //Verifica si el texto de los botones 1, 2 y 3 es "X" cuando el formulario se carga.
+            if (button3.Text == "O" && button4.Text == "O" && button7.Text == "O")
+            {
+                //Si todos los botones tienen el texto "X", muestra un mensaje indicando que "X" ha ganado.
+                MessageBox.Show("Gana O");
+            }
+
+
+        //Cruzados
+
+            //Verifica si el texto de los botones 1, 2 y 3 es "X" cuando el formulario se carga.
+            if (button1.Text == "O" && button5.Text == "O" && button7.Text == "O")
+            {
+                //Si todos los botones tienen el texto "X", muestra un mensaje indicando que "X" ha ganado.
+                MessageBox.Show("Gana O");
+            }
+
+            //Verifica si el texto de los botones 1, 2 y 3 es "X" cuando el formulario se carga.
+            if (button3.Text == "O" && button5.Text == "O" && button9.Text == "O")
+            {
+                //Si todos los botones tienen el texto "X", muestra un mensaje indicando que "X" ha ganado.
+                MessageBox.Show("Gana O");
+            }
         }
     }
 }
