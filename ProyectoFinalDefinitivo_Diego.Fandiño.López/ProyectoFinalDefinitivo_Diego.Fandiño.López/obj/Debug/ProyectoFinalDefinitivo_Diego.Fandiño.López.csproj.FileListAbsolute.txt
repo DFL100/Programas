@@ -1,0 +1,11 @@
+C:\Users\diego\OneDrive\Escritorio\Proyecto Tema10\ProyectoFinalDefinitivo_Diego.Fandiño.López\ProyectoFinalDefinitivo_Diego.Fandiño.López\bin\Debug\ProyectoFinalDefinitivo_Diego.Fandiño.López.exe.config
+C:\Users\diego\OneDrive\Escritorio\Proyecto Tema10\ProyectoFinalDefinitivo_Diego.Fandiño.López\ProyectoFinalDefinitivo_Diego.Fandiño.López\bin\Debug\ProyectoFinalDefinitivo_Diego.Fandiño.López.exe
+C:\Users\diego\OneDrive\Escritorio\Proyecto Tema10\ProyectoFinalDefinitivo_Diego.Fandiño.López\ProyectoFinalDefinitivo_Diego.Fandiño.López\bin\Debug\ProyectoFinalDefinitivo_Diego.Fandiño.López.pdb
+C:\Users\diego\OneDrive\Escritorio\Proyecto Tema10\ProyectoFinalDefinitivo_Diego.Fandiño.López\ProyectoFinalDefinitivo_Diego.Fandiño.López\obj\Debug\ProyectoFinalDefinitivo_Diego.Fandiño.López.csproj.AssemblyReference.cache
+C:\Users\diego\OneDrive\Escritorio\Proyecto Tema10\ProyectoFinalDefinitivo_Diego.Fandiño.López\ProyectoFinalDefinitivo_Diego.Fandiño.López\obj\Debug\ProyectoFinalDefinitivo_Diego.Fandiño.López.Form1.resources
+C:\Users\diego\OneDrive\Escritorio\Proyecto Tema10\ProyectoFinalDefinitivo_Diego.Fandiño.López\ProyectoFinalDefinitivo_Diego.Fandiño.López\obj\Debug\ProyectoFinalDefinitivo_Diego.Fandiño.López.Properties.Resources.resources
+C:\Users\diego\OneDrive\Escritorio\Proyecto Tema10\ProyectoFinalDefinitivo_Diego.Fandiño.López\ProyectoFinalDefinitivo_Diego.Fandiño.López\obj\Debug\ProyectoFinalDefinitivo_Diego.Fandiño.López.csproj.GenerateResource.cache
+C:\Users\diego\OneDrive\Escritorio\Proyecto Tema10\ProyectoFinalDefinitivo_Diego.Fandiño.López\ProyectoFinalDefinitivo_Diego.Fandiño.López\obj\Debug\ProyectoFinalDefinitivo_Diego.Fandiño.López.csproj.CoreCompileInputs.cache
+C:\Users\diego\OneDrive\Escritorio\Proyecto Tema10\ProyectoFinalDefinitivo_Diego.Fandiño.López\ProyectoFinalDefinitivo_Diego.Fandiño.López\obj\Debug\ProyectoFinalDefinitivo_Diego.Fandiño.López.exe
+C:\Users\diego\OneDrive\Escritorio\Proyecto Tema10\ProyectoFinalDefinitivo_Diego.Fandiño.López\ProyectoFinalDefinitivo_Diego.Fandiño.López\obj\Debug\ProyectoFinalDefinitivo_Diego.Fandiño.López.pdb
+C:\Users\diego\OneDrive\Escritorio\Proyecto Tema10\ProyectoFinalDefinitivo_Diego.Fandiño.López\ProyectoFinalDefinitivo_Diego.Fandiño.López\obj\Debug\ProyectoFinalDefinitivo_Diego.Fandiño.López.F_Ordenadores.resources
