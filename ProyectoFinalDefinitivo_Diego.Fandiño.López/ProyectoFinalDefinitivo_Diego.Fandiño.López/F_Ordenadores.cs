@@ -1053,6 +1053,12 @@ namespace ProyectoFinalDefinitivo_Diego.Fandiño.López
                 // Obtén el texto del TextBox
                 string texto = textBox1.Text;
 
+                if (string.IsNullOrWhiteSpace(texto))
+                {
+                    MessageBox.Show("Por favor ingrese un texto válido.", "Entrada inválida", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
                 if (!string.IsNullOrEmpty(texto))
                 {
                     try
@@ -1083,6 +1089,12 @@ namespace ProyectoFinalDefinitivo_Diego.Fandiño.López
                 string filePath = @"C:\Ruta\Completa\CPUamd.txt";
                 //Obtenemos el texto del TextBox
                 string texto = textBox1.Text;
+
+                if (string.IsNullOrWhiteSpace(texto))
+                {
+                    MessageBox.Show("Por favor ingrese un texto válido.", "Entrada inválida", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
 
                 if (!string.IsNullOrEmpty(texto))
                 {
@@ -1120,6 +1132,12 @@ namespace ProyectoFinalDefinitivo_Diego.Fandiño.López
                 //Obtenemos el texto del TextBox
                 string texto = textBox4.Text;
 
+                if (string.IsNullOrWhiteSpace(texto))
+                {
+                    MessageBox.Show("Por favor ingrese un texto válido.", "Entrada inválida", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
                 if (!string.IsNullOrEmpty(texto))
                 {
                     try
@@ -1151,6 +1169,12 @@ namespace ProyectoFinalDefinitivo_Diego.Fandiño.López
                 //Obtenemos el texto del TextBox
                 string texto = textBox4.Text;
 
+                if (string.IsNullOrWhiteSpace(texto))
+                {
+                    MessageBox.Show("Por favor ingrese un texto válido.", "Entrada inválida", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
                 if (!string.IsNullOrEmpty(texto))
                 {
                     try
@@ -1181,6 +1205,12 @@ namespace ProyectoFinalDefinitivo_Diego.Fandiño.López
                 string filePath = @"C:\Ruta\Completa\RAMddr5.txt";
                 //Obtenemos el texto del TextBox
                 string texto = textBox4.Text;
+
+                if (string.IsNullOrWhiteSpace(texto))
+                {
+                    MessageBox.Show("Por favor ingrese un texto válido.", "Entrada inválida", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
 
                 if (!string.IsNullOrEmpty(texto))
                 {
@@ -1218,8 +1248,15 @@ namespace ProyectoFinalDefinitivo_Diego.Fandiño.López
                 //Obtenemos el texto del TextBox
                 string texto = textBox6.Text;
 
+                if (string.IsNullOrWhiteSpace(texto))
+                {
+                    MessageBox.Show("Por favor ingrese un texto válido.", "Entrada inválida", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
                 if (!string.IsNullOrEmpty(texto))
                 {
+
                     try
                     {
                         //Abre el archivo para agregar texto al final
@@ -1248,6 +1285,12 @@ namespace ProyectoFinalDefinitivo_Diego.Fandiño.López
                 string filePath = @"C:\Ruta\Completa\PalaBaseAMD.txt";
                 //Obtenemos el texto del TextBox
                 string texto = textBox6.Text;
+
+                if (string.IsNullOrWhiteSpace(texto))
+                {
+                    MessageBox.Show("Por favor ingrese un texto válido.", "Entrada inválida", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
 
                 if (!string.IsNullOrEmpty(texto))
                 {
@@ -1285,6 +1328,12 @@ namespace ProyectoFinalDefinitivo_Diego.Fandiño.López
                 //Obtenemos el texto del TextBox
                 string texto = textBox8.Text;
 
+                if (string.IsNullOrWhiteSpace(texto))
+                {
+                    MessageBox.Show("Por favor ingrese un texto válido.", "Entrada inválida", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
                 if (!string.IsNullOrEmpty(texto))
                 {
                     try
@@ -1315,6 +1364,12 @@ namespace ProyectoFinalDefinitivo_Diego.Fandiño.López
                 string filePath = @"C:\Ruta\Completa\Bronce.txt";
                 //Obtenemos el texto del TextBox
                 string texto = textBox8.Text;
+
+                if (string.IsNullOrWhiteSpace(texto))
+                {
+                    MessageBox.Show("Por favor ingrese un texto válido.", "Entrada inválida", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
 
                 if (!string.IsNullOrEmpty(texto))
                 {
@@ -1347,6 +1402,12 @@ namespace ProyectoFinalDefinitivo_Diego.Fandiño.López
                 //Obtenemos el texto del TextBox
                 string texto = textBox8.Text;
 
+                if (string.IsNullOrWhiteSpace(texto))
+                {
+                    MessageBox.Show("Por favor ingrese un texto válido.", "Entrada inválida", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
                 if (!string.IsNullOrEmpty(texto))
                 {
                     try
@@ -1376,6 +1437,12 @@ namespace ProyectoFinalDefinitivo_Diego.Fandiño.López
                 string filePath = @"C:\Ruta\Completa\Gold.txt";
                 //Obtenemos el texto del TextBox
                 string texto = textBox8.Text;
+
+                if (string.IsNullOrWhiteSpace(texto))
+                {
+                    MessageBox.Show("Por favor ingrese un texto válido.", "Entrada inválida", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
 
                 if (!string.IsNullOrEmpty(texto))
                 {
@@ -1413,6 +1480,12 @@ namespace ProyectoFinalDefinitivo_Diego.Fandiño.López
                 //Obtenemos el texto del TextBox
                 string texto = textBox10.Text;
 
+                if (string.IsNullOrWhiteSpace(texto))
+                {
+                    MessageBox.Show("Por favor ingrese un texto válido.", "Entrada inválida", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
                 if (!string.IsNullOrEmpty(texto))
                 {
                     try
@@ -1444,6 +1517,12 @@ namespace ProyectoFinalDefinitivo_Diego.Fandiño.López
                 //Obtenemos el texto del TextBox
                 string texto = textBox10.Text;
 
+                if (string.IsNullOrWhiteSpace(texto))
+                {
+                    MessageBox.Show("Por favor ingrese un texto válido.", "Entrada inválida", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
                 if (!string.IsNullOrEmpty(texto))
                 {
                     try
@@ -1473,6 +1552,12 @@ namespace ProyectoFinalDefinitivo_Diego.Fandiño.López
                 string filePath = @"C:\Ruta\Completa\M2.txt";
                 //Obtenemos el texto del TextBox
                 string texto = textBox10.Text;
+
+                if (string.IsNullOrWhiteSpace(texto))
+                {
+                    MessageBox.Show("Por favor ingrese un texto válido.", "Entrada inválida", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
 
                 if (!string.IsNullOrEmpty(texto))
                 {
