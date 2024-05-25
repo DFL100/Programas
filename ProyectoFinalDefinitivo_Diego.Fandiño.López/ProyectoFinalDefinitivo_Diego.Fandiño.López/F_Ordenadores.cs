@@ -1499,5 +1499,589 @@ namespace ProyectoFinalDefinitivo_Diego.Fandiño.López
                 }
             }
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            //Borrar CPU
+
+            if (checkBox1.Checked) //Intel
+            {
+                string userInput = textBox2.Text;
+                string filePath = @"C:\Ruta\Completa\CPUintel.txt"; //Ruta del archivo de texto
+
+                if (string.IsNullOrWhiteSpace(userInput))
+                {
+                    MessageBox.Show("Por favor ingrese un texto válido.", "Entrada inválida", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                try
+                {
+                    if (File.Exists(filePath))
+                    {
+                        List<string> lines = File.ReadAllLines(filePath).ToList();
+
+                        if (lines.Remove(userInput))
+                        {
+                            File.WriteAllLines(filePath, lines);
+                            MessageBox.Show("Texto eliminado del archivo.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            //Limpiamos el TextBox después de añadir el texto
+                            textBox2.Clear();
+                        }
+                        else
+                        {
+                            MessageBox.Show("El texto no se encontró en el archivo.", "No encontrado", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("El archivo no existe.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Ocurrió un error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+
+            if (checkBox2.Checked) //AMD
+            {
+                string userInput = textBox2.Text;
+                string filePath = @"C:\Ruta\Completa\CPUamd.txt"; //Ruta del archivo de texto
+
+                if (string.IsNullOrWhiteSpace(userInput))
+                {
+                    MessageBox.Show("Por favor ingrese un texto válido.", "Entrada inválida", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                try
+                {
+                    if (File.Exists(filePath))
+                    {
+                        List<string> lines = File.ReadAllLines(filePath).ToList();
+
+                        if (lines.Remove(userInput))
+                        {
+                            File.WriteAllLines(filePath, lines);
+                            MessageBox.Show("Texto eliminado del archivo.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            //Limpiamos el TextBox después de añadir el texto
+                            textBox2.Clear();
+                        }
+                        else
+                        {
+                            MessageBox.Show("El texto no se encontró en el archivo.", "No encontrado", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("El archivo no existe.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Ocurrió un error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            //Borrar RAM
+
+            if (checkBox3.Checked) //DDR3
+            {
+                string userInput = textBox3.Text;
+                string filePath = @"C:\Ruta\Completa\RAMddr3.txt"; //Ruta del archivo de texto
+
+                if (string.IsNullOrWhiteSpace(userInput))
+                {
+                    MessageBox.Show("Por favor ingrese un texto válido.", "Entrada inválida", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                try
+                {
+                    if (File.Exists(filePath))
+                    {
+                        List<string> lines = File.ReadAllLines(filePath).ToList();
+
+                        if (lines.Remove(userInput))
+                        {
+                            File.WriteAllLines(filePath, lines);
+                            MessageBox.Show("Texto eliminado del archivo.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            //Limpiamos el TextBox después de añadir el texto
+                            textBox3.Clear();
+                        }
+                        else
+                        {
+                            MessageBox.Show("El texto no se encontró en el archivo.", "No encontrado", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("El archivo no existe.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Ocurrió un error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+
+            if (checkBox4.Checked) //DDR4
+            {
+                string userInput = textBox3.Text;
+                string filePath = @"C:\Ruta\Completa\RAMddr4.txt"; //Ruta del archivo de texto
+
+                if (string.IsNullOrWhiteSpace(userInput))
+                {
+                    MessageBox.Show("Por favor ingrese un texto válido.", "Entrada inválida", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                try
+                {
+                    if (File.Exists(filePath))
+                    {
+                        List<string> lines = File.ReadAllLines(filePath).ToList();
+
+                        if (lines.Remove(userInput))
+                        {
+                            File.WriteAllLines(filePath, lines);
+                            MessageBox.Show("Texto eliminado del archivo.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            //Limpiamos el TextBox después de añadir el texto
+                            textBox3.Clear();
+                        }
+                        else
+                        {
+                            MessageBox.Show("El texto no se encontró en el archivo.", "No encontrado", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("El archivo no existe.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Ocurrió un error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+
+            if (checkBox5.Checked) //DDR5
+            {
+                string userInput = textBox3.Text;
+                string filePath = @"C:\Ruta\Completa\RAMddr5.txt"; //Ruta del archivo de texto
+
+                if (string.IsNullOrWhiteSpace(userInput))
+                {
+                    MessageBox.Show("Por favor ingrese un texto válido.", "Entrada inválida", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                try
+                {
+                    if (File.Exists(filePath))
+                    {
+                        List<string> lines = File.ReadAllLines(filePath).ToList();
+
+                        if (lines.Remove(userInput))
+                        {
+                            File.WriteAllLines(filePath, lines);
+                            MessageBox.Show("Texto eliminado del archivo.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            //Limpiamos el TextBox después de añadir el texto
+                            textBox3.Clear();
+                        }
+                        else
+                        {
+                            MessageBox.Show("El texto no se encontró en el archivo.", "No encontrado", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("El archivo no existe.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Ocurrió un error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            //Borrar Placas Base
+
+            if (checkBox17.Checked) //Intel
+            {
+                string userInput = textBox5.Text;
+                string filePath = @"C:\Ruta\Completa\PalaBaseIntel.txt"; //Ruta del archivo de texto
+
+                if (string.IsNullOrWhiteSpace(userInput))
+                {
+                    MessageBox.Show("Por favor ingrese un texto válido.", "Entrada inválida", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                try
+                {
+                    if (File.Exists(filePath))
+                    {
+                        List<string> lines = File.ReadAllLines(filePath).ToList();
+
+                        if (lines.Remove(userInput))
+                        {
+                            File.WriteAllLines(filePath, lines);
+                            MessageBox.Show("Texto eliminado del archivo.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            //Limpiamos el TextBox después de añadir el texto
+                            textBox5.Clear();
+                        }
+                        else
+                        {
+                            MessageBox.Show("El texto no se encontró en el archivo.", "No encontrado", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("El archivo no existe.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Ocurrió un error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+
+            if (checkBox16.Checked) //AMD
+            {
+                string userInput = textBox5.Text;
+                string filePath = @"C:\Ruta\Completa\PalaBaseAMD.txt"; //Ruta del archivo de texto
+
+                if (string.IsNullOrWhiteSpace(userInput))
+                {
+                    MessageBox.Show("Por favor ingrese un texto válido.", "Entrada inválida", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                try
+                {
+                    if (File.Exists(filePath))
+                    {
+                        List<string> lines = File.ReadAllLines(filePath).ToList();
+
+                        if (lines.Remove(userInput))
+                        {
+                            File.WriteAllLines(filePath, lines);
+                            MessageBox.Show("Texto eliminado del archivo.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            //Limpiamos el TextBox después de añadir el texto
+                            textBox5.Clear();
+                        }
+                        else
+                        {
+                            MessageBox.Show("El texto no se encontró en el archivo.", "No encontrado", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("El archivo no existe.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Ocurrió un error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            //Borrar Fuentes de Alimentación
+
+            if (checkBox6.Checked) //80+
+            {
+                string userInput = textBox7.Text;
+                string filePath = @"C:\Ruta\Completa\80+.txt"; //Ruta del archivo de texto
+
+                if (string.IsNullOrWhiteSpace(userInput))
+                {
+                    MessageBox.Show("Por favor ingrese un texto válido.", "Entrada inválida", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                try
+                {
+                    if (File.Exists(filePath))
+                    {
+                        List<string> lines = File.ReadAllLines(filePath).ToList();
+
+                        if (lines.Remove(userInput))
+                        {
+                            File.WriteAllLines(filePath, lines);
+                            MessageBox.Show("Texto eliminado del archivo.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            //Limpiamos el TextBox después de añadir el texto
+                            textBox7.Clear();
+                        }
+                        else
+                        {
+                            MessageBox.Show("El texto no se encontró en el archivo.", "No encontrado", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("El archivo no existe.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Ocurrió un error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            if (checkBox7.Checked) //Bronce
+            {
+                string userInput = textBox7.Text;
+                string filePath = @"C:\Ruta\Completa\Bronce.txt"; //Ruta del archivo de texto
+
+                if (string.IsNullOrWhiteSpace(userInput))
+                {
+                    MessageBox.Show("Por favor ingrese un texto válido.", "Entrada inválida", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                try
+                {
+                    if (File.Exists(filePath))
+                    {
+                        List<string> lines = File.ReadAllLines(filePath).ToList();
+
+                        if (lines.Remove(userInput))
+                        {
+                            File.WriteAllLines(filePath, lines);
+                            MessageBox.Show("Texto eliminado del archivo.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            //Limpiamos el TextBox después de añadir el texto
+                            textBox7.Clear();
+                        }
+                        else
+                        {
+                            MessageBox.Show("El texto no se encontró en el archivo.", "No encontrado", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("El archivo no existe.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Ocurrió un error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            if (checkBox8.Checked) //Silver
+            {
+                string userInput = textBox7.Text;
+                string filePath = @"C:\Ruta\Completa\Silver.txt"; //Ruta del archivo de texto
+
+                if (string.IsNullOrWhiteSpace(userInput))
+                {
+                    MessageBox.Show("Por favor ingrese un texto válido.", "Entrada inválida", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                try
+                {
+                    if (File.Exists(filePath))
+                    {
+                        List<string> lines = File.ReadAllLines(filePath).ToList();
+
+                        if (lines.Remove(userInput))
+                        {
+                            File.WriteAllLines(filePath, lines);
+                            MessageBox.Show("Texto eliminado del archivo.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            //Limpiamos el TextBox después de añadir el texto
+                            textBox7.Clear();
+                        }
+                        else
+                        {
+                            MessageBox.Show("El texto no se encontró en el archivo.", "No encontrado", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("El archivo no existe.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Ocurrió un error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+
+            if (checkBox9.Checked) //Gold
+            {
+                string userInput = textBox7.Text;
+                string filePath = @"C:\Ruta\Completa\Gold.txt"; //Ruta del archivo de texto
+
+                if (string.IsNullOrWhiteSpace(userInput))
+                {
+                    MessageBox.Show("Por favor ingrese un texto válido.", "Entrada inválida", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                try
+                {
+                    if (File.Exists(filePath))
+                    {
+                        List<string> lines = File.ReadAllLines(filePath).ToList();
+
+                        if (lines.Remove(userInput))
+                        {
+                            File.WriteAllLines(filePath, lines);
+                            MessageBox.Show("Texto eliminado del archivo.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            //Limpiamos el TextBox después de añadir el texto
+                            textBox7.Clear();
+                        }
+                        else
+                        {
+                            MessageBox.Show("El texto no se encontró en el archivo.", "No encontrado", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("El archivo no existe.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Ocurrió un error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            //Borrar Discos Duros
+
+            if (checkBox13.Checked) //HDD
+            {
+                string userInput = textBox9.Text;
+                string filePath = @"C:\Ruta\Completa\HDD.txt"; //Ruta del archivo de texto
+
+                if (string.IsNullOrWhiteSpace(userInput))
+                {
+                    MessageBox.Show("Por favor ingrese un texto válido.", "Entrada inválida", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                try
+                {
+                    if (File.Exists(filePath))
+                    {
+                        List<string> lines = File.ReadAllLines(filePath).ToList();
+
+                        if (lines.Remove(userInput))
+                        {
+                            File.WriteAllLines(filePath, lines);
+                            MessageBox.Show("Texto eliminado del archivo.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            //Limpiamos el TextBox después de añadir el texto
+                            textBox9.Clear();
+                        }
+                        else
+                        {
+                            MessageBox.Show("El texto no se encontró en el archivo.", "No encontrado", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("El archivo no existe.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Ocurrió un error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+
+            if (checkBox12.Checked) //SDD
+            {
+                string userInput = textBox9.Text;
+                string filePath = @"C:\Ruta\Completa\SSD.txt"; //Ruta del archivo de texto
+
+                if (string.IsNullOrWhiteSpace(userInput))
+                {
+                    MessageBox.Show("Por favor ingrese un texto válido.", "Entrada inválida", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                try
+                {
+                    if (File.Exists(filePath))
+                    {
+                        List<string> lines = File.ReadAllLines(filePath).ToList();
+
+                        if (lines.Remove(userInput))
+                        {
+                            File.WriteAllLines(filePath, lines);
+                            MessageBox.Show("Texto eliminado del archivo.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            //Limpiamos el TextBox después de añadir el texto
+                            textBox9.Clear();
+                        }
+                        else
+                        {
+                            MessageBox.Show("El texto no se encontró en el archivo.", "No encontrado", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("El archivo no existe.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Ocurrió un error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+
+            if (checkBox11.Checked) //M.2
+            {
+                string userInput = textBox9.Text;
+                string filePath = @"C:\Ruta\Completa\M2.txt"; //Ruta del archivo de texto
+
+                if (string.IsNullOrWhiteSpace(userInput))
+                {
+                    MessageBox.Show("Por favor ingrese un texto válido.", "Entrada inválida", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                try
+                {
+                    if (File.Exists(filePath))
+                    {
+                        List<string> lines = File.ReadAllLines(filePath).ToList();
+
+                        if (lines.Remove(userInput))
+                        {
+                            File.WriteAllLines(filePath, lines);
+                            MessageBox.Show("Texto eliminado del archivo.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            //Limpiamos el TextBox después de añadir el texto
+                            textBox9.Clear();
+                        }
+                        else
+                        {
+                            MessageBox.Show("El texto no se encontró en el archivo.", "No encontrado", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("El archivo no existe.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Ocurrió un error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
     }
 }

@@ -426,6 +426,7 @@
             this.button3.TabIndex = 41;
             this.button3.Text = "Borrar";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // textBox2
             // 
@@ -450,6 +451,7 @@
             this.button4.TabIndex = 45;
             this.button4.Text = "Borrar";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // textBox4
             // 
@@ -485,6 +487,7 @@
             this.button6.TabIndex = 49;
             this.button6.Text = "Borrar";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // textBox6
             // 
@@ -520,6 +523,7 @@
             this.button8.TabIndex = 53;
             this.button8.Text = "Borrar";
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // textBox8
             // 
@@ -555,6 +559,7 @@
             this.button10.TabIndex = 57;
             this.button10.Text = "Borrar";
             this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // textBox10
             // 
