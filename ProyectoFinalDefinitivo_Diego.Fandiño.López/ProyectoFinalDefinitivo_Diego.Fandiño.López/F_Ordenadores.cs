@@ -1037,5 +1037,467 @@ namespace ProyectoFinalDefinitivo_Diego.Fandiño.López
                 MessageBox.Show($"Error al leer el archivo: {ex.Message}");
             }
         }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            //Añadir CPU
+
+            if (checkBox1.Checked)//Intel
+            {
+                string filePath = @"C:\Ruta\Completa\CPUintel.txt";
+                // Obtén el texto del TextBox
+                string texto = textBox1.Text;
+
+                if (!string.IsNullOrEmpty(texto))
+                {
+                    try
+                    {
+                        // Abre el archivo para agregar texto al final
+                        using (StreamWriter writer = new StreamWriter(filePath, true))
+                        {
+                            writer.WriteLine(texto);
+                        }
+                        MessageBox.Show("Texto añadido con éxito.");
+
+                        //Limpiamos el TextBox después de añadir el texto
+                        textBox1.Clear();
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"Error al escribir en el archivo: {ex.Message}");
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Por favor, ingrese un texto en el TextBox.");
+                }
+            }
+
+            if (checkBox2.Checked)//AMD
+            {
+                string filePath = @"C:\Ruta\Completa\CPUamd.txt";
+                //Obtenemos el texto del TextBox
+                string texto = textBox1.Text;
+
+                if (!string.IsNullOrEmpty(texto))
+                {
+                    try
+                    {
+                        //Abre el archivo para agregar texto al final
+                        using (StreamWriter writer = new StreamWriter(filePath, true))
+                        {
+                            writer.WriteLine(texto);
+                        }
+                        MessageBox.Show("Texto añadido con éxito.");
+
+                        //Limpiamos el TextBox después de añadir el texto
+                        textBox1.Clear();
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"Error al escribir en el archivo: {ex.Message}");
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Por favor, ingrese un texto en el TextBox.");
+                }
+            }
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            //Añadir RAM
+
+            if (checkBox3.Checked)//DDR3
+            {
+                string filePath = @"C:\Ruta\Completa\RAMddr3.txt";
+                //Obtenemos el texto del TextBox
+                string texto = textBox4.Text;
+
+                if (!string.IsNullOrEmpty(texto))
+                {
+                    try
+                    {
+                        //Abre el archivo para agregar texto al final
+                        using (StreamWriter writer = new StreamWriter(filePath, true))
+                        {
+                            writer.WriteLine(texto);
+                        }
+                        MessageBox.Show("Texto añadido con éxito.");
+
+                        //Limpiamos el TextBox después de añadir el texto
+                        textBox4.Clear();
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"Error al escribir en el archivo: {ex.Message}");
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Por favor, ingrese un texto en el TextBox.");
+                }
+            }
+
+            if (checkBox4.Checked)//DDR4
+            {
+                string filePath = @"C:\Ruta\Completa\RAMddr4.txt";
+                //Obtenemos el texto del TextBox
+                string texto = textBox4.Text;
+
+                if (!string.IsNullOrEmpty(texto))
+                {
+                    try
+                    {
+                        //Abre el archivo para agregar texto al final
+                        using (StreamWriter writer = new StreamWriter(filePath, true))
+                        {
+                            writer.WriteLine(texto);
+                        }
+                        MessageBox.Show("Texto añadido con éxito.");
+
+                        //Limpiamos el TextBox después de añadir el texto
+                        textBox4.Clear();
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"Error al escribir en el archivo: {ex.Message}");
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Por favor, ingrese un texto en el TextBox.");
+                }
+            }
+
+            if (checkBox5.Checked)//DDR5
+            {
+                string filePath = @"C:\Ruta\Completa\RAMddr5.txt";
+                //Obtenemos el texto del TextBox
+                string texto = textBox4.Text;
+
+                if (!string.IsNullOrEmpty(texto))
+                {
+                    try
+                    {
+                        //Abre el archivo para agregar texto al final
+                        using (StreamWriter writer = new StreamWriter(filePath, true))
+                        {
+                            writer.WriteLine(texto);
+                        }
+                        MessageBox.Show("Texto añadido con éxito.");
+
+                        //Limpiamos el TextBox después de añadir el texto
+                        textBox4.Clear();
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"Error al escribir en el archivo: {ex.Message}");
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Por favor, ingrese un texto en el TextBox.");
+                }
+            }
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            //Placa base
+
+            if (checkBox17.Checked)//Intel
+            {
+                string filePath = @"C:\Ruta\Completa\PalaBaseIntel.txt";
+                //Obtenemos el texto del TextBox
+                string texto = textBox6.Text;
+
+                if (!string.IsNullOrEmpty(texto))
+                {
+                    try
+                    {
+                        //Abre el archivo para agregar texto al final
+                        using (StreamWriter writer = new StreamWriter(filePath, true))
+                        {
+                            writer.WriteLine(texto);
+                        }
+                        MessageBox.Show("Texto añadido con éxito.");
+
+                        //Limpiamos el TextBox después de añadir el texto
+                        textBox6.Clear();
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"Error al escribir en el archivo: {ex.Message}");
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Por favor, ingrese un texto en el TextBox.");
+                }
+            }
+
+            if (checkBox16.Checked)//AMD
+            {
+                string filePath = @"C:\Ruta\Completa\PalaBaseAMD.txt";
+                //Obtenemos el texto del TextBox
+                string texto = textBox6.Text;
+
+                if (!string.IsNullOrEmpty(texto))
+                {
+                    try
+                    {
+                        //Abre el archivo para agregar texto al final
+                        using (StreamWriter writer = new StreamWriter(filePath, true))
+                        {
+                            writer.WriteLine(texto);
+                        }
+                        MessageBox.Show("Texto añadido con éxito.");
+
+                        //Limpiamos el TextBox después de añadir el texto
+                        textBox6.Clear();
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"Error al escribir en el archivo: {ex.Message}");
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Por favor, ingrese un texto en el TextBox.");
+                }
+            }
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            //Fuentes de Alimentación
+
+            if (checkBox6.Checked)//80+
+            {
+                string filePath = @"C:\Ruta\Completa\80+.txt";
+                //Obtenemos el texto del TextBox
+                string texto = textBox8.Text;
+
+                if (!string.IsNullOrEmpty(texto))
+                {
+                    try
+                    {
+                        //Abre el archivo para agregar texto al final
+                        using (StreamWriter writer = new StreamWriter(filePath, true))
+                        {
+                            writer.WriteLine(texto);
+                        }
+                        MessageBox.Show("Texto añadido con éxito.");
+
+                        //Limpiamos el TextBox después de añadir el texto
+                        textBox8.Clear();
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"Error al escribir en el archivo: {ex.Message}");
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Por favor, ingrese un texto en el TextBox.");
+                }
+            }
+
+            if (checkBox7.Checked)//Bronce
+            {
+                string filePath = @"C:\Ruta\Completa\Bronce.txt";
+                //Obtenemos el texto del TextBox
+                string texto = textBox8.Text;
+
+                if (!string.IsNullOrEmpty(texto))
+                {
+                    try
+                    {
+                        //Abre el archivo para agregar texto al final
+                        using (StreamWriter writer = new StreamWriter(filePath, true))
+                        {
+                            writer.WriteLine(texto);
+                        }
+                        MessageBox.Show("Texto añadido con éxito.");
+
+                        //Limpiamos el TextBox después de añadir el texto
+                        textBox8.Clear();
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"Error al escribir en el archivo: {ex.Message}");
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Por favor, ingrese un texto en el TextBox.");
+                }
+            }
+
+            if (checkBox8.Checked)//Silver
+            {
+                string filePath = @"C:\Ruta\Completa\Silver.txt";
+                //Obtenemos el texto del TextBox
+                string texto = textBox8.Text;
+
+                if (!string.IsNullOrEmpty(texto))
+                {
+                    try
+                    {
+                        //Abre el archivo para agregar texto al final
+                        using (StreamWriter writer = new StreamWriter(filePath, true))
+                        {
+                            writer.WriteLine(texto);
+                        }
+                        MessageBox.Show("Texto añadido con éxito.");
+
+                        //Limpiamos el TextBox después de añadir el texto
+                        textBox8.Clear();
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"Error al escribir en el archivo: {ex.Message}");
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Por favor, ingrese un texto en el TextBox.");
+                }
+            }
+            if (checkBox9.Checked)//Gold
+            {
+                string filePath = @"C:\Ruta\Completa\Gold.txt";
+                //Obtenemos el texto del TextBox
+                string texto = textBox8.Text;
+
+                if (!string.IsNullOrEmpty(texto))
+                {
+                    try
+                    {
+                        //Abre el archivo para agregar texto al final
+                        using (StreamWriter writer = new StreamWriter(filePath, true))
+                        {
+                            writer.WriteLine(texto);
+                        }
+                        MessageBox.Show("Texto añadido con éxito.");
+
+                        //Limpiamos el TextBox después de añadir el texto
+                        textBox8.Clear();
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"Error al escribir en el archivo: {ex.Message}");
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Por favor, ingrese un texto en el TextBox.");
+                }
+            }
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            //Disco Duro
+
+            if (checkBox13.Checked)//HDD
+            {
+                string filePath = @"C:\Ruta\Completa\HDD.txt";
+                //Obtenemos el texto del TextBox
+                string texto = textBox10.Text;
+
+                if (!string.IsNullOrEmpty(texto))
+                {
+                    try
+                    {
+                        //Abre el archivo para agregar texto al final
+                        using (StreamWriter writer = new StreamWriter(filePath, true))
+                        {
+                            writer.WriteLine(texto);
+                        }
+                        MessageBox.Show("Texto añadido con éxito.");
+
+                        //Limpiamos el TextBox después de añadir el texto
+                        textBox10.Clear();
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"Error al escribir en el archivo: {ex.Message}");
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Por favor, ingrese un texto en el TextBox.");
+                }
+            }
+
+            if (checkBox12.Checked)//SDD
+            {
+                string filePath = @"C:\Ruta\Completa\SSD.txt";
+                //Obtenemos el texto del TextBox
+                string texto = textBox10.Text;
+
+                if (!string.IsNullOrEmpty(texto))
+                {
+                    try
+                    {
+                        //Abre el archivo para agregar texto al final
+                        using (StreamWriter writer = new StreamWriter(filePath, true))
+                        {
+                            writer.WriteLine(texto);
+                        }
+                        MessageBox.Show("Texto añadido con éxito.");
+
+                        //Limpiamos el TextBox después de añadir el texto
+                        textBox10.Clear();
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"Error al escribir en el archivo: {ex.Message}");
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Por favor, ingrese un texto en el TextBox.");
+                }
+            }
+            if (checkBox11.Checked)//M.2
+            {
+                string filePath = @"C:\Ruta\Completa\M2.txt";
+                //Obtenemos el texto del TextBox
+                string texto = textBox10.Text;
+
+                if (!string.IsNullOrEmpty(texto))
+                {
+                    try
+                    {
+                        //Abre el archivo para agregar texto al final
+                        using (StreamWriter writer = new StreamWriter(filePath, true))
+                        {
+                            writer.WriteLine(texto);
+                        }
+                        MessageBox.Show("Texto añadido con éxito.");
+
+                        //Limpiamos el TextBox después de añadir el texto
+                        textBox10.Clear();
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"Error al escribir en el archivo: {ex.Message}");
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Por favor, ingrese un texto en el TextBox.");
+                }
+            }
+        }
     }
 }
