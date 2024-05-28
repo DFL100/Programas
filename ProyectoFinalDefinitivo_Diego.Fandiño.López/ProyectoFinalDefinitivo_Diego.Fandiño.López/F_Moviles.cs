@@ -299,5 +299,62 @@ namespace ProyectoFinalDefinitivo_Diego.Fandiño.López
             PrecioFin = 0;
             
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            //Componentes 1
+
+            if (radioButton1.Checked)
+            {
+                MessageBox.Show("Procesador:Exynos 1280 \nRam: 6GB \nAlmacenamiento: 128GB \nCamara: Cuádruple, 64 MP + 12 MP + 5 MP + 5 MP", "Especificaciones", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            if (radioButton2.Checked)
+            {
+                MessageBox.Show("Procesador: Dimensity 6020 \nRam: 8GB \nAlmacenamiento: 128GB \nCamara: 50 MP f/1.8 2 MP f/2.4", "Especificaciones", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            if (radioButton3.Checked)
+            {
+                MessageBox.Show("Procesador: Qualcomm Snapdragon 685 \nRam: 8GB \nAlmacenamiento: 256 GB \nCamara: 108 megapíxeles, f/1.75", "Especificaciones", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            //Componentes 2
+
+            if (radioButton1.Checked)
+            {
+                MessageBox.Show("Procesador: Snapdragon 8 Gen 2 for Samsung \nRam: 8GB \nAlmacenamiento: 512GB \nCamara: Principal de 50 Mpx f/1.8 OIS", "Especificaciones", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            if (radioButton2.Checked)
+            {
+                MessageBox.Show("Procesador: Qualcomm Snapdragon 888 \nRam: 8GB \nAlmacenamiento: 256GB \nCamara: Principal: 50 megapíxeles f/1.8, IMX766", "Especificaciones", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            if (radioButton3.Checked)
+            {
+                MessageBox.Show("Procesador: Snapdragon 8 Gen 2 \nRam: 12GB \nAlmacenamiento: 512GB \nCamara: Principal: 50MP,  f/1.6, OIS", "Especificaciones", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            //Componentes 3
+
+            if (radioButton1.Checked)
+            {
+                MessageBox.Show("Procesador: Snapdragon 8 Gen 3 \nRam: 12GB \nAlmacenamiento: 1TB \nCamara: 200 MP, f/1.7, OIS", "Especificaciones", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            if (radioButton2.Checked)
+            {
+                MessageBox.Show("Procesador: Qualcomm Snapdragon 865 \nRam: 12GB \nAlmacenamiento: 512GB \nCamara: Principal: 48MP", "Especificaciones", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            if (radioButton3.Checked)
+            {
+                MessageBox.Show("Procesador: Snapdragon 8 Gen 2 \nRam: 12GB \nAlmacenamiento: 256GB \nCamara: 50 MP f/1.9", "Especificaciones", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+
+        }
     }
 }

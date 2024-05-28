@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{0AC7F108-089A-421F-84F2-83A71CC8CA66}|ProyectoFinalDefinitivo_Diego.Fandi\u00F1o.L\u00F3pez\\ProyectoFinalDefinitivo_Diego.Fandi\u00F1o.L\u00F3pez.csproj|solutionrelative:proyectofinaldefinitivo_diego.fandi\u00F1o.l\u00F3pez\\f_moviles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0AC7F108-089A-421F-84F2-83A71CC8CA66}|ProyectoFinalDefinitivo_Diego.Fandi\u00F1o.L\u00F3pez\\ProyectoFinalDefinitivo_Diego.Fandi\u00F1o.L\u00F3pez.csproj|C:\\Users\\diego\\OneDrive\\Escritorio\\Proyecto Tema10\\ProyectoFinalDefinitivo_Diego.Fandi\u00F1o.L\u00F3pez\\proyectofinaldefinitivo_diego.fandi\u00F1o.l\u00F3pez\\f_ordenadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AC7F108-089A-421F-84F2-83A71CC8CA66}|ProyectoFinalDefinitivo_Diego.Fandi\u00F1o.L\u00F3pez\\ProyectoFinalDefinitivo_Diego.Fandi\u00F1o.L\u00F3pez.csproj|solutionrelative:proyectofinaldefinitivo_diego.fandi\u00F1o.l\u00F3pez\\f_ordenadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AC7F108-089A-421F-84F2-83A71CC8CA66}|ProyectoFinalDefinitivo_Diego.Fandi\u00F1o.L\u00F3pez\\ProyectoFinalDefinitivo_Diego.Fandi\u00F1o.L\u00F3pez.csproj|C:\\Users\\diego\\OneDrive\\Escritorio\\Proyecto Tema10\\ProyectoFinalDefinitivo_Diego.Fandi\u00F1o.L\u00F3pez\\proyectofinaldefinitivo_diego.fandi\u00F1o.l\u00F3pez\\f_ordenadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0AC7F108-089A-421F-84F2-83A71CC8CA66}|ProyectoFinalDefinitivo_Diego.Fandi\u00F1o.L\u00F3pez\\ProyectoFinalDefinitivo_Diego.Fandi\u00F1o.L\u00F3pez.csproj|solutionrelative:proyectofinaldefinitivo_diego.fandi\u00F1o.l\u00F3pez\\f_ordenadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0AC7F108-089A-421F-84F2-83A71CC8CA66}|ProyectoFinalDefinitivo_Diego.Fandi\u00F1o.L\u00F3pez\\ProyectoFinalDefinitivo_Diego.Fandi\u00F1o.L\u00F3pez.csproj|C:\\Users\\diego\\OneDrive\\Escritorio\\Proyecto Tema10\\ProyectoFinalDefinitivo_Diego.Fandi\u00F1o.L\u00F3pez\\proyectofinaldefinitivo_diego.fandi\u00F1o.l\u00F3pez\\f_moviles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0AC7F108-089A-421F-84F2-83A71CC8CA66}|ProyectoFinalDefinitivo_Diego.Fandi\u00F1o.L\u00F3pez\\ProyectoFinalDefinitivo_Diego.Fandi\u00F1o.L\u00F3pez.csproj|solutionrelative:proyectofinaldefinitivo_diego.fandi\u00F1o.l\u00F3pez\\f_moviles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
@@ -18,11 +26,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "F_Ordenadores.cs",
+              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Escritorio\\Proyecto Tema10\\ProyectoFinalDefinitivo_Diego.Fandi\u00F1o.L\u00F3pez\\ProyectoFinalDefinitivo_Diego.Fandi\u00F1o.L\u00F3pez\\F_Ordenadores.cs",
+              "RelativeDocumentMoniker": "ProyectoFinalDefinitivo_Diego.Fandi\u00F1o.L\u00F3pez\\F_Ordenadores.cs",
+              "ToolTip": "C:\\Users\\diego\\OneDrive\\Escritorio\\Proyecto Tema10\\ProyectoFinalDefinitivo_Diego.Fandi\u00F1o.L\u00F3pez\\ProyectoFinalDefinitivo_Diego.Fandi\u00F1o.L\u00F3pez\\F_Ordenadores.cs",
+              "RelativeToolTip": "ProyectoFinalDefinitivo_Diego.Fandi\u00F1o.L\u00F3pez\\F_Ordenadores.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAAAHIJAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T18:28:40.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "F_Ordenadores.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Escritorio\\Proyecto Tema10\\ProyectoFinalDefinitivo_Diego.Fandi\u00F1o.L\u00F3pez\\ProyectoFinalDefinitivo_Diego.Fandi\u00F1o.L\u00F3pez\\F_Ordenadores.cs",
+              "RelativeDocumentMoniker": "ProyectoFinalDefinitivo_Diego.Fandi\u00F1o.L\u00F3pez\\F_Ordenadores.cs",
+              "ToolTip": "C:\\Users\\diego\\OneDrive\\Escritorio\\Proyecto Tema10\\ProyectoFinalDefinitivo_Diego.Fandi\u00F1o.L\u00F3pez\\ProyectoFinalDefinitivo_Diego.Fandi\u00F1o.L\u00F3pez\\F_Ordenadores.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ProyectoFinalDefinitivo_Diego.Fandi\u00F1o.L\u00F3pez\\F_Ordenadores.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T18:28:38.424Z"
             },
             {
               "$type": "Document",
@@ -32,14 +63,14 @@
               "RelativeDocumentMoniker": "ProyectoFinalDefinitivo_Diego.Fandi\u00F1o.L\u00F3pez\\F_Moviles.cs",
               "ToolTip": "C:\\Users\\diego\\OneDrive\\Escritorio\\Proyecto Tema10\\ProyectoFinalDefinitivo_Diego.Fandi\u00F1o.L\u00F3pez\\ProyectoFinalDefinitivo_Diego.Fandi\u00F1o.L\u00F3pez\\F_Moviles.cs",
               "RelativeToolTip": "ProyectoFinalDefinitivo_Diego.Fandi\u00F1o.L\u00F3pez\\F_Moviles.cs",
-              "ViewState": "AQIAAA4BAAAAAAAAAAAAACsBAAAMAAAA",
+              "ViewState": "AQIAAEwBAAAAAAAAAAAAAGIBAAB5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-27T20:19:09.018Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "F_Moviles.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Escritorio\\Proyecto Tema10\\ProyectoFinalDefinitivo_Diego.Fandi\u00F1o.L\u00F3pez\\ProyectoFinalDefinitivo_Diego.Fandi\u00F1o.L\u00F3pez\\F_Moviles.cs",
               "RelativeDocumentMoniker": "ProyectoFinalDefinitivo_Diego.Fandi\u00F1o.L\u00F3pez\\F_Moviles.cs",

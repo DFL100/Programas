@@ -2393,5 +2393,27 @@ namespace ProyectoFinalDefinitivo_Diego.Fandiño.López
             }*/
 
         }
+
+        private void button19_Click(object sender, EventArgs e)
+        {
+            //Hacer pedido
+
+            listBox1.Text = "";
+            comboBox1.Text = "";
+            comboBox2.Text = "";
+            comboBox3.Text = "";
+            comboBox4.Text = "";
+            comboBox5.Text = "";
+            label8.Text = "";
+            label9.Text = "";
+            label10.Text = "";
+            label11.Text = "";
+            label12.Text = "";
+
+            MessageBox.Show("Su pedido se ha realizado con éxito. \nLa entrega se puede seguir desde: \nhttps://www.wikirafa.com","Confirmación de pedido", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            this.Close();
+        }
     }
 }
+//Diego fandiño López
