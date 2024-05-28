@@ -52,6 +52,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="F_Moviles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_Moviles.Designer.cs">
+      <DependentUpon>F_Moviles.cs</DependentUpon>
+    </Compile>
     <Compile Include="F_Ordenadores.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,6 +68,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_Moviles.resx">
+      <DependentUpon>F_Moviles.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="F_Ordenadores.resx">
       <DependentUpon>F_Ordenadores.cs</DependentUpon>
@@ -112,6 +121,39 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Flecha_gif_1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Smartphone XIAOMI REDMINOTE13BLEU256.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Xiaomi Poco F6 Pro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Xiaomi 13 Pro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OPPO A79 5G.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OPPO Find X5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OPPO Find X2 PRO.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OPPO Find X2 PRO1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Samsung Galaxy A53.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SAMSUNG Galaxy S23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AMSUNG Galaxy S24 Ultra.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flecha2.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

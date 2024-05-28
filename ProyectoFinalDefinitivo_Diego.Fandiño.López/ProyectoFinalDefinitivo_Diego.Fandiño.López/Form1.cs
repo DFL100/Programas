@@ -66,5 +66,11 @@ namespace ProyectoFinalDefinitivo_Diego.Fandiño.López
             F_Ordenadores Apartado1 = new F_Ordenadores();
             Apartado1.ShowDialog();
         }
+
+        private void btnMoviles_Click(object sender, EventArgs e)
+        {
+            F_Moviles Apartado2 = new F_Moviles();
+            Apartado2.ShowDialog();
+        }
     }
 }

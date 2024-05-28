@@ -153,6 +153,8 @@ namespace ProyectoFinalDefinitivo_Diego.Fandiño.López
 
             //Llama al método para crear el archivo txt
             CreateTextFile14(filePath14);
+
+            
         }
 
 
@@ -2167,6 +2169,229 @@ namespace ProyectoFinalDefinitivo_Diego.Fandiño.López
                     MessageBox.Show($"Ocurrió un error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
+        }
+
+        private void lblRAM_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            //Confirmar
+
+            label8.Text = comboBox1.Text;
+            label9.Text = comboBox2.Text;
+            label10.Text = comboBox3.Text;
+            label11.Text = comboBox4.Text;
+            label12.Text = comboBox5.Text;
+
+            label8.Visible = true;
+            label9.Visible = true;
+            label10.Visible = true;
+            label11.Visible = true;
+            label12.Visible = true;
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            //Limpiar 
+
+            label8.Text = "";
+            label9.Text = "";
+            label10.Text = "";
+            label11.Text = "";
+            label12.Text = "";
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //Cargar la Configuración
+            try
+            {
+                //Ruta completa del archivo que contiene las configuraciones de los ordenadores
+                string filePath = @"C:\Ruta\Completa\OrdenadoresCargados.txt";
+                //Crear el documento
+                CreateTextFile15(filePath);
+
+                string ordenador = label8.Text + "\n" + label9.Text + "\n" + label10.Text + "\n" + label11.Text + "\n" + label12.Text + "\n -";
+                
+                //Guardar el texto de los labels en el archivo
+                using (StreamWriter writer = new StreamWriter(filePath))
+                {
+                    /*writer.WriteLine(label8.Text);
+                    writer.WriteLine(label9.Text);
+                    writer.WriteLine(label10.Text);
+                    writer.WriteLine(label11.Text);
+                    writer.WriteLine(label12.Text);*/
+
+                    writer.WriteLine(ordenador);
+                }
+                MessageBox.Show("Configuración añadida con exito");
+
+                //Leer el archivo y mostrar el contenido en el ListBox
+                listBox1.Items.Clear();
+                string[] lines = File.ReadAllLines(filePath);
+                listBox1.Items.AddRange(lines);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Ocurrió un error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            //Borrar
+
+            if (listBox1.SelectedItem != null)
+            {
+                string filePath = @"C:\Ruta\Completa\OrdenadoresCargados.txt";
+                string itemToRemove = listBox1.SelectedItem.ToString();
+
+                //Eliminar el elemento del ListBox
+                listBox1.Items.Remove(listBox1.SelectedItem);
+
+                //Leer el archivo y eliminar el elemento
+                List<string> lines = File.ReadAllLines(filePath).ToList();
+                lines.Remove(itemToRemove);
+                File.WriteAllLines(filePath, lines);
+            }
+
+        }
+
+        int currentIndex = -1; //Variable para mantener el índice actual
+        private void button15_Click(object sender, EventArgs e)
+        {
+
+            // Abajo
+            if (listBox1.Items.Count > 0)
+            {
+                if (currentIndex < listBox1.Items.Count - 1)
+                {
+                    currentIndex++;
+                    listBox1.SelectedIndex = currentIndex;
+                }
+                else
+                {
+                    // Si llegamos al final, volvemos al principio
+                    currentIndex = 0;
+                    listBox1.SelectedIndex = currentIndex;
+                }
+            }
+
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            //Arriba
+
+            if (listBox1.Items.Count > 0)
+            {
+                if (currentIndex > 0)
+                {
+                    currentIndex--;
+                    listBox1.SelectedIndex = currentIndex;
+                }
+                else
+                {
+                    // Si estamos al principio, vamos al final
+                    currentIndex = listBox1.Items.Count - 1;
+                    listBox1.SelectedIndex = currentIndex;
+                }
+            }
+
+        }
+
+        private void CreateTextFile15(string filePath15)
+        {
+            //Crear el TXT para los ordenadores creados
+
+            //Verifica si el directorio existe, si no existe, lo crea
+            string directoryPath15 = Path.GetDirectoryName(filePath15);
+            if (!Directory.Exists(directoryPath15))
+            {
+                Directory.CreateDirectory(directoryPath15);
+            }
+
+            if (!File.Exists(filePath15))
+            {
+                try
+                {
+                    //Intenta crear el archivo y escribir en él
+                    using (StreamWriter writer = File.CreateText(filePath15))
+                    {
+                        //writer.WriteLine("Archivo creado");
+                        
+                    }
+                    MessageBox.Show("Archivo creado con éxito." + MessageBoxButtons.OK);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Error al crear el archivo: {ex.Message}");
+                }
+            }
+            else
+            {
+                //MessageBox.Show("El archivo ya existe.");
+            }
+        }
+
+        //____________________________________________________________________________________________
+
+        List<int> configIndexes = new List<int>();
+        private void ExtractConfigIndexes()
+        {
+            configIndexes.Clear();
+            for (int i = 0; i < listBox1.Items.Count; i++)
+            {
+                if (listBox1.Items[i].ToString().Trim() == "-")
+                {
+                    configIndexes.Add(i);
+                }
+            }
+        }
+        private void button18_Click(object sender, EventArgs e)
+        {
+            //Alante
+
+            /*if (configIndexes.Count > 0)
+            {
+                int nextIndex = configIndexes.FirstOrDefault(x => x > currentConfigIndex);
+                if (nextIndex != 0)
+                {
+                    currentConfigIndex = nextIndex;
+                    listBox1.SelectedIndex = currentConfigIndex;
+                }
+                else
+                {
+                    currentConfigIndex = configIndexes.First();
+                    listBox1.SelectedIndex = currentConfigIndex;
+                }
+            }*/
+
+        }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+            //Atras
+
+            /*if (configIndexes.Count > 0)
+            {
+                int prevIndex = configIndexes.LastOrDefault(x => x < currentConfigIndex);
+                if (prevIndex != 0)
+                {
+                    currentConfigIndex = prevIndex;
+                    listBox1.SelectedIndex = currentConfigIndex;
+                }
+                else
+                {
+                    currentConfigIndex = configIndexes.Last();
+                    listBox1.SelectedIndex = currentConfigIndex;
+                }
+            }*/
+
         }
     }
 }

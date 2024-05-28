@@ -63,6 +63,16 @@ namespace ProyectoFinalDefinitivo_Diego.Fandiño.López.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap AMSUNG_Galaxy_S24_Ultra {
+            get {
+                object obj = ResourceManager.GetObject("AMSUNG Galaxy S24 Ultra", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Black_friday_2 {
             get {
                 object obj = ResourceManager.GetObject("Black_friday_2", resourceCulture);
@@ -93,6 +103,16 @@ namespace ProyectoFinalDefinitivo_Diego.Fandiño.López.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap flecha2 {
+            get {
+                object obj = ResourceManager.GetObject("flecha2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Fondo_Amarillo {
             get {
                 object obj = ResourceManager.GetObject("Fondo_Amarillo", resourceCulture);
@@ -106,6 +126,46 @@ namespace ProyectoFinalDefinitivo_Diego.Fandiño.López.Properties {
         internal static System.Drawing.Bitmap Fondo_Naranja_1 {
             get {
                 object obj = ResourceManager.GetObject("Fondo_Naranja_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap OPPO_A79_5G {
+            get {
+                object obj = ResourceManager.GetObject("OPPO A79 5G", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap OPPO_Find_X2_PRO {
+            get {
+                object obj = ResourceManager.GetObject("OPPO Find X2 PRO", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap OPPO_Find_X2_PRO1 {
+            get {
+                object obj = ResourceManager.GetObject("OPPO Find X2 PRO1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap OPPO_Find_X5 {
+            get {
+                object obj = ResourceManager.GetObject("OPPO Find X5", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -136,6 +196,56 @@ namespace ProyectoFinalDefinitivo_Diego.Fandiño.López.Properties {
         internal static System.Drawing.Bitmap rebajas11 {
             get {
                 object obj = ResourceManager.GetObject("rebajas11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Samsung_Galaxy_A53 {
+            get {
+                object obj = ResourceManager.GetObject("Samsung Galaxy A53", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SAMSUNG_Galaxy_S23 {
+            get {
+                object obj = ResourceManager.GetObject("SAMSUNG Galaxy S23", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Smartphone_XIAOMI_REDMINOTE13BLEU256 {
+            get {
+                object obj = ResourceManager.GetObject("Smartphone XIAOMI REDMINOTE13BLEU256", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Xiaomi_13_Pro {
+            get {
+                object obj = ResourceManager.GetObject("Xiaomi 13 Pro", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Xiaomi_Poco_F6_Pro {
+            get {
+                object obj = ResourceManager.GetObject("Xiaomi Poco F6 Pro", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -110,6 +110,7 @@
             this.btnMoviles.TabIndex = 1;
             this.btnMoviles.Text = "Móviles";
             this.btnMoviles.UseVisualStyleBackColor = true;
+            this.btnMoviles.Click += new System.EventHandler(this.btnMoviles_Click);
             // 
             // btnOrdenadores
             // 
